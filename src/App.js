@@ -31,6 +31,7 @@ function App() {
     openWithDialogue: false,
     audioCapturePermissions: false,
     phoneCallPermissions: false,
+    all: false,
     // calendarIntegration: false,
     // mediaPlayback: false,
     // accessToContacts: false,
@@ -38,15 +39,33 @@ function App() {
 
   const handleCheckboxChange = (event, name) => {
     const { checked } = event.target;
-    setIsChecked((prevState) => ({ ...prevState, [name]: checked }));
+    setIsChecked((prevState) => {
+      if (name === "all") {
+        const newState = {};
+        Object.keys(prevState).forEach((key) => {
+          newState[key] = checked;
+        });
+        return newState;
+      } else {
+        return { ...prevState, [name]: checked };
+      }
+    });
   };
 
   const [selectedCards, setSelectedCards] = useState([]);
   const [noFeaturesChecked, setNoFeaturesChecked] = useState(true);
 
   const handleButtonClick = () => {
-    console.log(data);
-    console.log(isChecked);
+    const checkedFeatures = Object.keys(isChecked).filter(
+      (feature) => isChecked[feature] && feature !== "All"
+    );
+    if (checkedFeatures.length !== 0 || isChecked["all"]) {
+      setNoFeaturesChecked(false);
+      setSelectedCards([]);
+    } else {
+      setNoFeaturesChecked(true);
+    }
+
     const filteredCards = data
       .filter((card) => card.features.some((feature) => isChecked[feature]))
       .sort((a, b) => {
@@ -63,11 +82,6 @@ function App() {
         }
       });
 
-    if (filteredCards.length !== 0) {
-      setNoFeaturesChecked(false);
-    } else {
-      setNoFeaturesChecked(true);
-    }
     console.log(filteredCards);
     setSelectedCards(filteredCards);
   };
