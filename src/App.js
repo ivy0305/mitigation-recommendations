@@ -55,6 +55,35 @@ function App() {
   const [selectedCards, setSelectedCards] = useState([]);
   const [noFeaturesChecked, setNoFeaturesChecked] = useState(true);
 
+  const filterCards = (cards, isChecked) => {
+    const filteredCards = cards.filter((card) => {
+      if (isChecked.all) {
+        return true;
+      } else {
+        return card.features.some((feature) => isChecked[feature]);
+      }
+    });
+
+    filteredCards.sort((a, b) => {
+      const priorityOrder = { low: 2, medium: 1, high: 0 };
+      const aPriority = priorityOrder[a.priority];
+      const bPriority = priorityOrder[b.priority];
+      if (aPriority !== bPriority) {
+        return aPriority - bPriority;
+      } else {
+        const aNumChecked = a.features.filter(
+          (feature) => isChecked[feature]
+        ).length;
+        const bNumChecked = b.features.filter(
+          (feature) => isChecked[feature]
+        ).length;
+        return bNumChecked - aNumChecked;
+      }
+    });
+
+    return filteredCards;
+  };
+
   const handleButtonClick = () => {
     const checkedFeatures = Object.keys(isChecked).filter(
       (feature) => isChecked[feature] && feature !== "All"
@@ -66,23 +95,7 @@ function App() {
       setNoFeaturesChecked(true);
     }
 
-    const filteredCards = data
-      .filter((card) => card.features.some((feature) => isChecked[feature]))
-      .sort((a, b) => {
-        if (a.priority === "high") {
-          return -1;
-        } else if (b.priority === "high") {
-          return 1;
-        } else if (a.priority === "medium") {
-          return -1;
-        } else if (b.priority === "medium") {
-          return 1;
-        } else {
-          return 0;
-        }
-      });
-
-    console.log(filteredCards);
+    const filteredCards = filterCards(data, isChecked);
     setSelectedCards(filteredCards);
   };
 
