@@ -1,8 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import Grid from "@mui/material/Grid";
-import Card from "@mui/material/Card";
-import Button from "@mui/material/Button";
+import { Grid, Card, Button } from "@mui/material";
 
 // Custom components
 import InfoCard from "./components/InfoCard";
@@ -124,20 +122,17 @@ function App() {
       </Card>
 
       <div className="infoCards">
-        <h3>Related Vulnerabilities:</h3>
+        <h3>Related Mitigations:</h3>
         {noFeaturesChecked ? (
           <p>Select at least one feature to display results.</p>
         ) : (
-          selectedCards.map((card, index) => (
-            <InfoCard
-              key={index}
-              card={card}
-              vulnerability={card.vulnerability}
-              mitigations={card.mitigations}
-              features={card.features}
-              priority={card.priority}
-            />
-          ))
+          <Grid container spacing={2} alignItems="stretch">
+            {selectedCards.map((card, index) => (
+              <Grid item xs={4} sx={{ display: "flex" }}>
+                <InfoCard key={index} card={card} isChecked={isChecked} />
+              </Grid>
+            ))}
+          </Grid>
         )}
       </div>
     </div>

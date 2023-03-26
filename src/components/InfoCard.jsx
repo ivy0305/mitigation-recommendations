@@ -1,17 +1,9 @@
 import "./styles.css";
-import Card from "@mui/material/Card";
-import Grid from "@mui/material/Grid";
-import Divider from "@mui/material/Divider";
-import Chip from "@mui/material/Chip";
-import Stack from "@mui/material/Stack";
+import { Card, CardContent, Chip, Typography } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
-// import FormControlLabel from '@mui/material/FormControlLabel';
-// import Checkbox from '@mui/material/Checkbox';
-// import Typography from '@mui/material/Typography';
-
 function InfoCard(props) {
-  const mitigationsLength = props.mitigations.length;
+  const vulnerabilitiesLength = props.card.vulnerabilities.length;
 
   const displayCamelCase = (text) => {
     var newText = text;
@@ -25,15 +17,15 @@ function InfoCard(props) {
   const theme = createTheme({
     palette: {
       high: {
-        main: "#f44336",
-        contrastText: "#fff",
+        main: "#ED6A5A",
+        contrastText: "#000",
       },
       medium: {
-        main: "#ff9800",
+        main: "#FFA552",
         contrastText: "#000",
       },
       low: {
-        main: "#ffeb3b",
+        main: "#FFF599",
         contrastText: "#000",
       },
     },
@@ -42,54 +34,42 @@ function InfoCard(props) {
   return (
     <ThemeProvider theme={theme}>
       <Card className="card">
-        <Chip
-          label={"Priority: " + displayCamelCase(props.priority)}
-          color={props.priority}
-          className="priorityLabel"
-          sx={{ borderRadius: "10px" }}
-        />
-        <Grid container>
-          <Grid item xs>
+        <CardContent>
+          <Chip
+            label={"Priority: " + displayCamelCase(props.card.priority)}
+            color={props.card.priority}
+            className="priorityLabel"
+            sx={{ borderRadius: "10px" }}
+          />
+          <Typography variant="h5" sx={{ marginBottom: 1 }}>
+            {props.card.mitigation}
+          </Typography>
+          <p>
+            <b>App Features:</b>
+          </p>
+          {props.card.features.map((feature) => (
+            <Chip
+              key={feature}
+              label={displayCamelCase(feature)}
+              size="small"
+              sx={{ marginRight: "3px", marginBottom: "3px" }}
+            />
+          ))}
+          {vulnerabilitiesLength === 1 ? (
             <p>
-              <b>Vulnerability: </b>
-              {props.vulnerability}
+              <b>Vulnerability:</b>
             </p>
-            <div>
-              <b>
-                App Features:
-                <br />
-              </b>
-              <Stack
-                direction="row"
-                spacing={1}
-                sx={{ justifyContent: "center" }}
-              >
-                {props.features.map((feature) => (
-                  <Chip
-                    key={feature}
-                    label={displayCamelCase(feature)}
-                    size="small"
-                  />
-                  // <FormControlLabel key={feature} disabled checked control={<Checkbox size="small"/>} value={feature} label={<Typography sx={{ typography: 'subtitle2', textTransform: 'capitalize', letterSpacing: 1 }}>{displayCamelCase(feature)}</Typography>}/>
-                ))}
-              </Stack>
-            </div>
-          </Grid>
-          <Divider orientation="vertical" flexItem />
-          <Grid item xs>
-            {mitigationsLength === 1 ? <b>Mitigation:</b> : <b>Mitigations:</b>}
-            {props.mitigations.map((mitigation) => (
-              <div key={mitigation}>
-                <p>{mitigation}</p>
-                {mitigation !== props.mitigations[mitigationsLength - 1] ? (
-                  <Divider variant="middle"></Divider>
-                ) : (
-                  ""
-                )}
-              </div>
-            ))}
-          </Grid>
-        </Grid>
+          ) : (
+            <p>
+              <b>Vulnerabilities:</b>
+            </p>
+          )}
+          {props.card.vulnerabilities.map((vulnerability) => (
+            <ul key={vulnerability}>
+              <li>{vulnerability}</li>
+            </ul>
+          ))}
+        </CardContent>
       </Card>
     </ThemeProvider>
   );

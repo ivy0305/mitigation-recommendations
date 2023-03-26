@@ -1,5 +1,4 @@
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
+import { FormControlLabel, Checkbox } from "@mui/material";
 import "./styles.css";
 
 function CustomCheckbox({ name, isChecked, onChange }) {
