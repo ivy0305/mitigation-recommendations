@@ -1,20 +1,163 @@
 [
   {
-    "vulnerability": "Insecure Authentication",
-    "mitigations": ["Use HTTPS"],
-    "features": ["login", "search"],
-    "priority": "low"
-  },
-  {
-    "vulnerability": "something",
-    "mitigations": ["Code obfuscation", "Cryptography"],
-    "features": ["login", "chat_Messaging"],
+    "mitigation": "Security Updates",
+    "vulnerabilities": [
+      "Supply chain compromise",
+      "Drive-by compromise",
+      "Exploitation for privilege escalation"
+    ],
+    "features": [
+      "ads",
+      "forumPosts_Comments",
+      "permissions",
+      "thirdPartyLibraries"
+    ],
     "priority": "medium"
   },
   {
-    "vulnerability": "Insecure Data Storage",
-    "mitigations": ["Cryptography"],
-    "features": ["dataCollection", "login"],
+    "mitigation": "Application Developer Guidance",
+    "vulnerabilities": [
+      "Supply chain compromise",
+      "Access / collect data via notifications",
+      "Abuse elevation control mechanism",
+      "Steal application access token",
+      "Screen capture"
+    ],
+    "features": [
+      "notifications",
+      "passwordRecovery",
+      "permissions",
+      "thirdPartyLibraries",
+      "openWithDialogue",
+      "dataCollection"
+    ],
+    "priority": "medium"
+  },
+  {
+    "mitigation": "Use Recent OS Versions",
+    "vulnerabilities": [
+      "Input capture e.g. keylogging",
+      "Adversary-in-the-middle",
+      "Video capture",
+      "Stored application data",
+      "Clipboard data",
+      "Steal application access token",
+      "File and directory discovery",
+      "Audio capture",
+      "Collection of protected user data"
+    ],
+    "features": [
+      "login",
+      "textInput",
+      "search",
+      "networkAccess",
+      "cameraAccess",
+      "fileStorage",
+      "dataCollection",
+      "openWithDialogue",
+      "audioCapturePermissions",
+      "paymentOptions"
+    ],
     "priority": "high"
+  },
+  {
+    "mitigation": "Attestation",
+    "vulnerabilities": ["Exploitation for privilege escalation"],
+    "features": ["permissions"],
+    "priority": "low"
+  },
+  {
+    "mitigation": "Deploy Compromised Device Detection Method",
+    "vulnerabilities": ["Exploitation for privilege escalation"],
+    "features": ["permissions"],
+    "priority": "low"
+  },
+  {
+    "mitigation": "Enterprise Policy",
+    "vulnerabilities": [
+      "Input injection",
+      "Access / collect data via notifications",
+      "Input capture e.g. keylogging",
+      "Screen capture"
+    ],
+    "features": [
+      "login",
+      "textInput",
+      "search",
+      "notifications",
+      "passwordRecovery",
+      "dataCollection",
+      "paymentOptions"
+    ],
+    "priority": "high"
+  },
+  {
+    "mitigation": "User Guidance",
+    "vulnerabilities": [
+      "Input injection",
+      "Access / collect data via notifications",
+      "Input capture e.g. keylogging",
+      "Steal application access token",
+      "Audio capture",
+      "Call control",
+      "Collection of protected user data",
+      "Screen capture"
+    ],
+    "features": [
+      "login",
+      "textInput",
+      "search",
+      "notifications",
+      "passwordRecovery",
+      "openWithDialogue",
+      "audioCapturePermissions",
+      "phoneCallPermissions",
+      "dataCollection",
+      "permissions",
+      "paymentOptions"
+    ],
+    "priority": "high"
+  },
+  {
+    "mitigation": "Encrypt Network Traffic",
+    "vulnerabilities": ["Adversary-in-the-middle"],
+    "features": ["networkAccess", "dataCollection"],
+    "priority": "medium"
+  },
+  {
+    "mitigation": "Interconnection Filtering",
+    "vulnerabilities": ["Location tracking"],
+    "features": ["locationServices"],
+    "priority": "low"
+  },
+  {
+    "mitigation": "Use HTTPS [TODO]",
+    "vulnerabilities": ["Insecure Authentication", "TODO"],
+    "features": ["networkAccess"],
+    "priority": "high"
+  },
+  {
+    "mitigation": "Code Obfuscation [TODO]",
+    "vulnerabilities": ["TODO"],
+    "features": ["login"],
+    "priority": "medium"
+  },
+  {
+    "mitigation": "Encryption [TODO]",
+    "vulnerabilities": ["TODO"],
+    "features": ["dataCollection", "liveChat_Messaging"],
+    "priority": "high"
+  },
+  {
+    "mitigation": "Data minimisation [TODO]",
+    "vulnerabilities": ["TODO"],
+    "features": ["analyticsAndTracking"],
+    "priority": "low"
+  },
+  {
+    "mitigation": "Data anonymisation [TODO]",
+    "vulnerabilities": ["TODO"],
+    "features": ["analyticsAndTracking"],
+    "priority": "low"
   }
 ]
