@@ -1,0 +1,21 @@
+[
+    {
+        "vulnerability": "Insecure Authentication",
+        "mitigations": ["Use HTTPS"],
+        "features": ["login", "search"],
+        "priority": "low"
+    },
+    {
+        
+        "vulnerability": "something",
+        "mitigations": ["Code obfuscation", "Cryptography"],
+        "features": ["login", "chat_Messaging"],
+        "priority": "medium"
+    },
+    {
+        "vulnerability": "Insecure Data Storage",
+        "mitigations": ["Cryptography"],
+        "features": ["dataCollection", "login"],
+        "priority": "high"
+    }
+]

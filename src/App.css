@@ -1,27 +1,10 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 5px;
+  background-color: #819488;
+  background-image: url("./img/background.svg");
+  background-size: cover;
+  /* height: 100vh; */
 }
 
 .App-link {
@@ -35,4 +18,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.featureCard {
+  margin: 0 auto;
+  padding: 5px 15px;
+  width: 750px;
+}
+
+.findBtn {
+  width: 120px;
+  margin: 25px auto 10px auto !important;
+}
+
+.infoCards {
+  width: 80%;
+  margin: 50px auto;
+  min-height: 45vh;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
