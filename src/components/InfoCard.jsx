@@ -16,6 +16,10 @@ function InfoCard(props) {
 
   const theme = createTheme({
     palette: {
+      selected: {
+        main: "#C8D6D6",
+        contrastText: "#000",
+      },
       high: {
         main: "#ED6A5A",
         contrastText: "#000",
@@ -30,6 +34,14 @@ function InfoCard(props) {
       },
     },
   });
+
+  const featureColor = (feature) => {
+    if (props.isChecked[feature] === true) {
+      return "selected";
+    } else {
+      return "default";
+    }
+  };
 
   return (
     <ThemeProvider theme={theme}>
@@ -53,6 +65,7 @@ function InfoCard(props) {
               label={displayCamelCase(feature)}
               size="small"
               sx={{ marginRight: "3px", marginBottom: "3px" }}
+              color={featureColor(feature)}
             />
           ))}
           {vulnerabilitiesLength === 1 ? (
