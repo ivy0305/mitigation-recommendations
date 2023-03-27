@@ -30,6 +30,11 @@
   margin: 25px auto 10px auto !important;
 }
 
+.findBtn:hover {
+  background-color: #819488 !important;
+  color: #fff;
+}
+
 .infoCards {
   width: 90%;
   margin: 50px auto;

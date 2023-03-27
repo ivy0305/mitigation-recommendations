@@ -43,7 +43,7 @@ function InfoCard(props) {
         contrastText: "#000",
       },
       btn: {
-        main: "#A2B5B0",
+        main: "#BDCCCB",
         contrastText: "#000",
       },
     },
@@ -97,8 +97,8 @@ function InfoCard(props) {
           <Button
             variant="contained"
             color="btn"
+            className="mainBtn"
             onClick={handleClickOpen}
-            sx={{ letterSpacing: 1 }}
           >
             <OpenInNewIcon fontSize="small" sx={{ marginRight: 1 }} />
             See vulnerabilities

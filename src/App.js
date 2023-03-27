@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Grid, Card, Button } from "@mui/material";
+import SearchIcon from "@mui/icons-material/Search";
 
 // Custom components & styling
 import InfoCard from "./components/InfoCard";
@@ -151,6 +152,7 @@ function App() {
           onClick={handleButtonClick}
           sx={{ backgroundColor: "#BDCCCB", color: "#000" }}
         >
+          <SearchIcon fontSize="small" sx={{ marginRight: 1 }} />
           Find
         </Button>
       </Card>

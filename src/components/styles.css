@@ -23,3 +23,12 @@
   bottom: 5px;
   right: 5px;
 }
+
+.mainBtn {
+  letter-spacing: 1px;
+}
+
+.mainBtn:hover {
+  background-color: #819488;
+  color: #fff;
+}
