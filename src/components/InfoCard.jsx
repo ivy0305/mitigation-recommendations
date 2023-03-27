@@ -1,10 +1,20 @@
-import "./styles.css";
-import { Card, CardContent, Chip, Typography } from "@mui/material";
+import { useState } from "react";
+import {
+  Card,
+  CardContent,
+  CardActions,
+  Chip,
+  Typography,
+  Button,
+} from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
+
+// Custom components & styling
+import VulnerabilityDialog from "./VulnerabilityDialog";
+import "./styles.css";
 
 function InfoCard(props) {
-  const vulnerabilitiesLength = props.card.vulnerabilities.length;
-
   const displayCamelCase = (text) => {
     var newText = text;
     if (text.match("_")) {
@@ -32,6 +42,10 @@ function InfoCard(props) {
         main: "#FFF599",
         contrastText: "#000",
       },
+      btn: {
+        main: "#A2B5B0",
+        contrastText: "#000",
+      },
     },
   });
 
@@ -43,19 +57,29 @@ function InfoCard(props) {
     }
   };
 
+  const [open, setOpen] = useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   return (
     <ThemeProvider theme={theme}>
       <Card className="card">
-        <CardContent>
-          <Chip
-            label={"Priority: " + displayCamelCase(props.card.priority)}
-            color={props.card.priority}
-            className="priorityLabel"
-            sx={{ borderRadius: "10px" }}
-          />
+        <CardContent sx={{ marginBottom: 3 }}>
           <Typography variant="h5" sx={{ marginBottom: 1 }}>
             {props.card.mitigation}
           </Typography>
+          <Chip
+            label={"Priority: " + displayCamelCase(props.card.priority)}
+            color={props.card.priority}
+            sx={{ borderRadius: "10px" }}
+            size="small"
+          />
           <p>
             <b>App Features:</b>
           </p>
@@ -68,21 +92,24 @@ function InfoCard(props) {
               color={featureColor(feature)}
             />
           ))}
-          {vulnerabilitiesLength === 1 ? (
-            <p>
-              <b>Vulnerability:</b>
-            </p>
-          ) : (
-            <p>
-              <b>Vulnerabilities:</b>
-            </p>
-          )}
-          {props.card.vulnerabilities.map((vulnerability) => (
-            <ul key={vulnerability}>
-              <li>{vulnerability}</li>
-            </ul>
-          ))}
         </CardContent>
+        <CardActions className="actions">
+          <Button
+            variant="contained"
+            color="btn"
+            onClick={handleClickOpen}
+            sx={{ letterSpacing: 1 }}
+          >
+            <OpenInNewIcon fontSize="small" sx={{ marginRight: 1 }} />
+            See vulnerabilities
+          </Button>
+          <VulnerabilityDialog
+            mitigation={props.card.mitigation}
+            vulnerabilities={props.card.vulnerabilities}
+            open={open}
+            handleClose={handleClose}
+          />
+        </CardActions>
       </Card>
     </ThemeProvider>
   );

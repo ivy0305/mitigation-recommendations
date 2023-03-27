@@ -1,10 +1,10 @@
-import "./App.css";
 import { useState } from "react";
 import { Grid, Card, Button } from "@mui/material";
 
-// Custom components
+// Custom components & styling
 import InfoCard from "./components/InfoCard";
 import CustomCheckbox from "./components/Checkbox";
+import "./App.css";
 
 import data from "./data.json";
 
@@ -162,8 +162,8 @@ function App() {
         ) : (
           <Grid container spacing={2} alignItems="stretch">
             {selectedCards.map((card, index) => (
-              <Grid item xs={4} sx={{ display: "flex" }}>
-                <InfoCard key={index} card={card} isChecked={isChecked} />
+              <Grid item xs={4} key={index} sx={{ display: "flex" }}>
+                <InfoCard card={card} isChecked={isChecked} />
               </Grid>
             ))}
           </Grid>

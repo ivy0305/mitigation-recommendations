@@ -8,9 +8,9 @@
     ],
     "features": [
       "ads",
-      "forumPosts_Comments",
       "permissions",
-      "thirdPartyLibraries"
+      "thirdPartyLibraries",
+      "forumPosts_Comments"
     ],
     "priority": "medium"
   },
@@ -25,11 +25,11 @@
     ],
     "features": [
       "notifications",
-      "passwordRecovery",
       "permissions",
+      "dataCollection",
+      "passwordRecovery",
       "thirdPartyLibraries",
-      "openWithDialogue",
-      "dataCollection"
+      "openWithDialogue"
     ],
     "priority": "medium"
   },
@@ -50,12 +50,12 @@
       "login",
       "textInput",
       "search",
-      "networkAccess",
-      "cameraAccess",
       "fileStorage",
       "dataCollection",
-      "openWithDialogue",
       "audioCapturePermissions",
+      "networkAccess",
+      "cameraAccess",
+      "openWithDialogue",
       "paymentOptions"
     ],
     "priority": "high"
@@ -110,10 +110,10 @@
       "notifications",
       "passwordRecovery",
       "openWithDialogue",
+      "permissions",
       "audioCapturePermissions",
       "phoneCallPermissions",
       "dataCollection",
-      "permissions",
       "paymentOptions"
     ],
     "priority": "high"
