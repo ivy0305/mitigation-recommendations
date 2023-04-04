@@ -58,7 +58,10 @@ Each mitigation is given in the following format:
     "features": ["Feature 1", "Feature 2"],
     "priority": "low",
     "details": {
-      "link": "https://attack.mitre.org/mitigations/{mitigation link here}/"
+      "link": "https://attack.mitre.org/mitigations/{mitigation link here}/",
+      "summary": "Details of mitigation technique.",
+      "dotpoints": ["Optional dotpoint to include in summary 1", "Dotpoint 2"],
+      "relatedMitigations": ["Optional related mitigation technique 1", "Related mitigation 2"]
     }
   }
 ```
