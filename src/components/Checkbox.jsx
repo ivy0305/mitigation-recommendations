@@ -7,6 +7,9 @@ function CustomCheckbox({ name, isChecked, onChange }) {
     if (text.match("_")) {
       newText = text.replace(/_/g, " /");
     }
+    if (text.match("openWithDialogue")) {
+      return "'Open With' Dialogue";
+    }
     const result = newText.replace(/([A-Z])/g, " $1");
     return result.charAt(0).toUpperCase() + result.slice(1);
   };

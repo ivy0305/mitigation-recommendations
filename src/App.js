@@ -3,7 +3,7 @@ import { Grid, Card, Button } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
 // Custom components & styling
-import InfoCard from "./components/InfoCard";
+import MitigationCard from "./components/MitigationCard";
 import CustomCheckbox from "./components/Checkbox";
 import "./App.css";
 
@@ -25,9 +25,9 @@ function App() {
     cameraAccess: false,
     notifications: false,
     paymentOptions: false,
-    liveChat_Messaging: false,
+    // liveChat_Messaging: false,
     forumPosts_Comments: false,
-    analyticsAndTracking: false,
+    // analyticsAndTracking: false,
     thirdPartyLibraries: false,
     openWithDialogue: false,
     audioCapturePermissions: false,
@@ -165,7 +165,7 @@ function App() {
           <Grid container spacing={2} alignItems="stretch">
             {selectedCards.map((card, index) => (
               <Grid item xs={4} key={index} sx={{ display: "flex" }}>
-                <InfoCard card={card} isChecked={isChecked} />
+                <MitigationCard card={card} isChecked={isChecked} />
               </Grid>
             ))}
           </Grid>

@@ -32,3 +32,15 @@
   background-color: #819488;
   color: #fff;
 }
+
+a:link {
+  color: #819488;
+}
+
+a:visited {
+  color: #91a49c;
+}
+
+a:hover {
+  color: #a2b5b0;
+}

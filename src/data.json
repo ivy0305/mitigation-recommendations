@@ -12,7 +12,13 @@
       "thirdPartyLibraries",
       "forumPosts_Comments"
     ],
-    "priority": "medium"
+    "priority": "medium",
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1001/",
+      "summary": "Install security updates in response to discovered vulnerabilities and ensure devices and resources used provide and have installed recent security updates.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
   },
   {
     "mitigation": "Application Developer Guidance",
@@ -31,7 +37,13 @@
       "thirdPartyLibraries",
       "openWithDialogue"
     ],
-    "priority": "medium"
+    "priority": "medium",
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1013/",
+      "summary": "Provide guidance or training to application developers.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
   },
   {
     "mitigation": "Use Recent OS Versions",
@@ -58,19 +70,46 @@
       "openWithDialogue",
       "paymentOptions"
     ],
-    "priority": "high"
+    "priority": "high",
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1006/",
+      "summary": "Use the recent mobile OS version as they often introduce:",
+      "dotpoints": [
+        "Patches against discovered vulnerabilities",
+        "Security architecture improvements to provide resilience against potential undiscovered vulnerabilities",
+        "Security architecture improvements against observed adversary techniques"
+      ],
+      "relatedMitigations": []
+    }
   },
   {
     "mitigation": "Attestation",
     "vulnerabilities": ["Exploitation for privilege escalation"],
     "features": ["permissions"],
-    "priority": "low"
+    "priority": "low",
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1002/",
+      "summary": "Enable remote attestation capabilities when available, and prohibit devices that fail the attestation from accessing enterprise resources.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
   },
   {
     "mitigation": "Deploy Compromised Device Detection Method",
     "vulnerabilities": ["Exploitation for privilege escalation"],
     "features": ["permissions"],
-    "priority": "low"
+    "priority": "low",
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1010/",
+      "summary": "Use a detection method that enables enterprises to identify compromised (e.g. rooted/jailbroken) devices. Various methods exist, including:",
+      "dotpoints": [
+        "Security mechanisms built directly into the device",
+        "Third-party mobile security applications",
+        "Enterprise mobility management (EMM)/mobile device management (MDM) capabilities",
+        "Other methods"
+      ],
+      "relatedMitigations": []
+    }
   },
   {
     "mitigation": "Enterprise Policy",
@@ -89,7 +128,13 @@
       "dataCollection",
       "paymentOptions"
     ],
-    "priority": "high"
+    "priority": "high",
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1012/",
+      "summary": "Use an enterprise mobility management (EMM) or mobile device management (MDM) system to provision policies to mobile devices to control aspects of their allowed behaviour.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
   },
   {
     "mitigation": "User Guidance",
@@ -116,48 +161,45 @@
       "dataCollection",
       "paymentOptions"
     ],
-    "priority": "high"
+    "priority": "high",
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1011/",
+      "summary": "Provide guidance or training to users to:",
+      "dotpoints": [
+        "Set particular configuration settings",
+        "Avoid specifically potentially risky behaviours"
+      ],
+      "relatedMitigations": []
+    }
   },
   {
     "mitigation": "Encrypt Network Traffic",
     "vulnerabilities": ["Adversary-in-the-middle"],
     "features": ["networkAccess", "dataCollection"],
-    "priority": "medium"
+    "priority": "medium",
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1009/",
+      "summary": "Application developers should encrypt all of their application network traffic to ensure protection of sensitive data and deter network-based attacks.",
+      "dotpoints": [],
+      "relatedMitigations": [
+        "Use the Transport Layer Security (TLS) protocol",
+        "Use HTTPS",
+        "Use Android's Network Security Configuration feature (or iOS's App Transport Security feature)",
+        "Message-based encryption of data",
+        "Use Virtual Private Network (VPN) tunnels e.g. using the IPsec protocol"
+      ]
+    }
   },
   {
     "mitigation": "Interconnection Filtering",
     "vulnerabilities": ["Location tracking"],
     "features": ["locationServices"],
-    "priority": "low"
-  },
-  {
-    "mitigation": "Use HTTPS [TODO]",
-    "vulnerabilities": ["Insecure Authentication", "TODO"],
-    "features": ["networkAccess"],
-    "priority": "high"
-  },
-  {
-    "mitigation": "Code Obfuscation [TODO]",
-    "vulnerabilities": ["TODO"],
-    "features": ["login"],
-    "priority": "medium"
-  },
-  {
-    "mitigation": "Encryption [TODO]",
-    "vulnerabilities": ["TODO"],
-    "features": ["dataCollection", "liveChat_Messaging"],
-    "priority": "high"
-  },
-  {
-    "mitigation": "Data minimisation [TODO]",
-    "vulnerabilities": ["TODO"],
-    "features": ["analyticsAndTracking"],
-    "priority": "low"
-  },
-  {
-    "mitigation": "Data anonymisation [TODO]",
-    "vulnerabilities": ["TODO"],
-    "features": ["analyticsAndTracking"],
-    "priority": "low"
+    "priority": "low",
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1014/",
+      "summary": "Filter interconnections between network operators to block inappropriate requests, as described by the Communications, Security, Reliability, and Interoperability Council (CSRIC). This mitigates Signaling System 7 (SS7) exploitation.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
   }
 ]

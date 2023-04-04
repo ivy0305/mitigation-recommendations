@@ -11,14 +11,17 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
 // Custom components & styling
-import VulnerabilityDialog from "./VulnerabilityDialog";
+import InfoDialog from "./InfoDialog";
 import "./styles.css";
 
-function InfoCard(props) {
+function MitigationCard(props) {
   const displayCamelCase = (text) => {
     var newText = text;
     if (text.match("_")) {
       newText = text.replace(/_/g, " /");
+    }
+    if (text.match("openWithDialogue")) {
+      return "'Open With' Dialogue";
     }
     const result = newText.replace(/([A-Z])/g, " $1");
     return result.charAt(0).toUpperCase() + result.slice(1);
@@ -101,11 +104,12 @@ function InfoCard(props) {
             onClick={handleClickOpen}
           >
             <OpenInNewIcon fontSize="small" sx={{ marginRight: 1 }} />
-            See vulnerabilities
+            See details
           </Button>
-          <VulnerabilityDialog
+          <InfoDialog
             mitigation={props.card.mitigation}
             vulnerabilities={props.card.vulnerabilities}
+            details={props.card.details}
             open={open}
             handleClose={handleClose}
           />
@@ -115,4 +119,4 @@ function InfoCard(props) {
   );
 }
 
-export default InfoCard;
+export default MitigationCard;
