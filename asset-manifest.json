@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mitigation-recommendations/static/css/main.7f3f3412.css",
-    "main.js": "/mitigation-recommendations/static/js/main.1c5b261e.js",
+    "main.css": "/mitigation-recommendations/static/css/main.0302c216.css",
+    "main.js": "/mitigation-recommendations/static/js/main.215df299.js",
     "static/js/787.8cf76a6a.chunk.js": "/mitigation-recommendations/static/js/787.8cf76a6a.chunk.js",
     "static/media/background.svg": "/mitigation-recommendations/static/media/background.7ca7fdb3e68d3d752962.svg",
     "index.html": "/mitigation-recommendations/index.html",
-    "main.7f3f3412.css.map": "/mitigation-recommendations/static/css/main.7f3f3412.css.map",
-    "main.1c5b261e.js.map": "/mitigation-recommendations/static/js/main.1c5b261e.js.map",
+    "main.0302c216.css.map": "/mitigation-recommendations/static/css/main.0302c216.css.map",
+    "main.215df299.js.map": "/mitigation-recommendations/static/js/main.215df299.js.map",
     "787.8cf76a6a.chunk.js.map": "/mitigation-recommendations/static/js/787.8cf76a6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f3f3412.css",
-    "static/js/main.1c5b261e.js"
+    "static/css/main.0302c216.css",
+    "static/js/main.215df299.js"
   ]
 }
