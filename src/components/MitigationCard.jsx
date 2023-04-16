@@ -109,6 +109,7 @@ function MitigationCard(props) {
           <InfoDialog
             mitigation={props.card.mitigation}
             vulnerabilities={props.card.vulnerabilities}
+            degree={props.card.degree}
             details={props.card.details}
             open={open}
             handleClose={handleClose}

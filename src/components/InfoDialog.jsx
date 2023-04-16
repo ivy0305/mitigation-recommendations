@@ -26,6 +26,11 @@ function InfoDialog(props) {
       <DialogContent>
         <Grid container>
           <Grid item xs sx={{ padding: "0 20px" }}>
+            <h4>
+              Degree centrality score:{" "}
+              <span className="h4Body">{props.degree.toFixed(4)}</span>
+            </h4>
+
             <h4>Technique details:</h4>
             <p>{props.details.summary}</p>
             {dotpointsLength !== 0 && (
@@ -46,9 +51,9 @@ function InfoDialog(props) {
               </>
             )}
             <p>
-              Learn more information:&nbsp;
+              Learn more information at the MITRE ATT&CK website:&nbsp;
               <a href={props.details.link} target="_blank" rel="noreferrer">
-                MITRE ATT&CK Website
+                {props.mitigation}
               </a>
             </p>
           </Grid>
