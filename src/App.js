@@ -66,22 +66,31 @@ function App() {
     });
 
     filteredCards.sort((a, b) => {
+      // determine number of selected features
+      const aNumChecked = a.features.filter(
+        (feature) => isChecked[feature]
+      ).length;
+      const bNumChecked = b.features.filter(
+        (feature) => isChecked[feature]
+      ).length;
+
+      // sort by priority
       const priorityOrder = { low: 2, medium: 1, high: 0 };
       const aPriority = priorityOrder[a.priority];
       const bPriority = priorityOrder[b.priority];
       if (aPriority !== bPriority) {
         return aPriority - bPriority;
-      } else {
-        const aNumChecked = a.features.filter(
-          (feature) => isChecked[feature]
-        ).length;
-        const bNumChecked = b.features.filter(
-          (feature) => isChecked[feature]
-        ).length;
-        return bNumChecked - aNumChecked;
+      } else if (aPriority === bPriority) {
+        // sort by number of selected features
+        if (aNumChecked !== bNumChecked) {
+          return bNumChecked - aNumChecked;
+        }
+        // sort by degree score
+        if (a.degree !== b.degree) {
+          return b.degree - a.degree;
+        }
       }
     });
-
     return filteredCards;
   };
 

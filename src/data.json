@@ -133,7 +133,7 @@
       "dataCollection",
       "paymentOptions"
     ],
-    "priority": "high",
+    "priority": "medium",
     "degree": 0.5932203389830508,
     "details": {
       "link": "https://attack.mitre.org/mitigations/M1012/",
@@ -183,7 +183,7 @@
     "mitigation": "Encrypt Network Traffic",
     "vulnerabilities": ["Adversary-in-the-middle"],
     "features": ["networkAccess", "dataCollection"],
-    "priority": "medium",
+    "priority": "low",
     "degree": 0.06779661016949151,
     "details": {
       "link": "https://attack.mitre.org/mitigations/M1009/",

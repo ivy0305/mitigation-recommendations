@@ -27,7 +27,7 @@ function InfoDialog(props) {
         <Grid container>
           <Grid item xs sx={{ padding: "0 20px" }}>
             <h4>
-              Degree centrality score:{" "}
+              (Normalised) degree centrality score:{" "}
               <span className="h4Body">{props.degree.toFixed(4)}</span>
             </h4>
 
