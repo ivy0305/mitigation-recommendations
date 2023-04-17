@@ -90,6 +90,7 @@ function App() {
           return b.degree - a.degree;
         }
       }
+      return b.degree - a.degree;
     });
     return filteredCards;
   };
