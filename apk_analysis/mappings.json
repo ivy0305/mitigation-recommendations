@@ -1,0 +1,10 @@
+{
+    "Ads": ["api_get_advertising"],
+    "File Storage": ["api_local_file_io"],
+    "Location Services": ["api_get_location", "api_gps"],
+    "Network Access": ["api_tcp", "api_tcp_server", "api_http_connection", "api_udp_datagram", "api_udp_datagram_socket", "api_get_network", "api_get_wifi"],
+    "Notifications": ["api_notifications"],
+    "Phone Call Permissions": ["api_get_phone"],
+    "Open With' Dialogue": ["api_start_activity"]
+
+}
