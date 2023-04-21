@@ -1,0 +1,5 @@
+json/**
+apks/**
+artifacts/**
+env/**
+.env
