@@ -1,8 +1,6 @@
 import subprocess
-import requests
 import json
 import os
-from requests_toolbelt.multipart.encoder import MultipartEncoder
 from dotenv import load_dotenv
 load_dotenv()
 
