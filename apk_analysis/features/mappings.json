@@ -6,5 +6,4 @@
     "Notifications": ["api_notifications"],
     "Phone Call Permissions": ["api_get_phone"],
     "Open With' Dialogue": ["api_start_activity"]
-
 }

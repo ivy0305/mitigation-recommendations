@@ -17,14 +17,14 @@ class SetEncoder(json.JSONEncoder):
         if isinstance(obj, set):
             return list(obj)
         return json.JSONEncoder.default(self, obj)
-    
+
 def create_dir(file_path):
     directory_path = os.path.dirname(file_path)
 
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
 
-    
+
 def download_artifacts(app_name, hash, files):
     for file, v in files.items():
         payload = {
@@ -103,7 +103,7 @@ def main():
             if "android.permission.RECORD_AUDIO" in permission_data:
                 apk_pkg["features"].add("Audio Capture Permissions")
         
-    with open("export.json", "w") as f:
+    with open("../export.json", "w") as f:
         json.dump(export, f, indent=2, cls=SetEncoder)
 
 if __name__ == "__main__":
