@@ -23,15 +23,16 @@ for f in os.listdir("mitigations/json"):
         tactics = data.get("Zenbox android").get("tactics")
         techniques = []
         for tactic in tactics:
-            techniques +=tactic.get("techniques")
+            techniques += tactic.get("techniques")
         
         TIds = [t.get("id") for t in techniques]
         
-        mitigations = []
+        mitigations = {}
     
         for k,v in mappings.items():
-            if any(i in v for i in TIds):
-                mitigations.append(k)
+            # proportion of techniques for each mitigation
+            n_techniques = sum(el in TIds for el in v)
+            mitigations[k] = round(n_techniques/len(v), 2)
         
         for apk in export:
             if apk.get("md5") == hash:

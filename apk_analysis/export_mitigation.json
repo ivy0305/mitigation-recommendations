@@ -105,11 +105,19 @@
         "desc": "Get Network Interface information"
       }
     ],
-    "mitigations": [
-      "Interconnection Filtering",
-      "Use Recent OS Version",
-      "User Guidance"
-    ]
+    "mitigations": {
+      "Application Developer Guidance": 0.0,
+      "Attestation": 0.0,
+      "Deploy Compromised Device Detection Method": 0.0,
+      "Encrypt Network Traffic": 0.0,
+      "Enterprise Policy": 0.0,
+      "Interconnection Filtering": 1.0,
+      "Lock Bootloader": 0.0,
+      "Security Updates": 0.0,
+      "System Partition Integrity": 0.0,
+      "Use Recent OS Version": 0.08,
+      "User Guidance": 0.09
+    }
   },
   {
     "app_name": "Libre Camera",
@@ -254,12 +262,19 @@
         "desc": "URL Connection to file/http/https/ftp/jar"
       }
     ],
-    "mitigations": [
-      "Attestation",
-      "Interconnection Filtering",
-      "Use Recent OS Version",
-      "User Guidance"
-    ]
+    "mitigations": {
+      "Application Developer Guidance": 0.0,
+      "Attestation": 0.11,
+      "Deploy Compromised Device Detection Method": 0.0,
+      "Encrypt Network Traffic": 0.0,
+      "Enterprise Policy": 0.0,
+      "Interconnection Filtering": 1.0,
+      "Lock Bootloader": 0.0,
+      "Security Updates": 0.0,
+      "System Partition Integrity": 0.0,
+      "Use Recent OS Version": 0.17,
+      "User Guidance": 0.04
+    }
   },
   {
     "app_name": "Tachiyomi",
@@ -378,11 +393,18 @@
         "desc": "Sending Broadcast"
       }
     ],
-    "mitigations": [
-      "Attestation",
-      "Interconnection Filtering",
-      "Use Recent OS Version",
-      "User Guidance"
-    ]
+    "mitigations": {
+      "Application Developer Guidance": 0.0,
+      "Attestation": 0.11,
+      "Deploy Compromised Device Detection Method": 0.0,
+      "Encrypt Network Traffic": 0.0,
+      "Enterprise Policy": 0.0,
+      "Interconnection Filtering": 1.0,
+      "Lock Bootloader": 0.0,
+      "Security Updates": 0.0,
+      "System Partition Integrity": 0.0,
+      "Use Recent OS Version": 0.08,
+      "User Guidance": 0.04
+    }
   }
 ]
