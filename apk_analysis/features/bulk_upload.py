@@ -1,8 +1,6 @@
 import subprocess
-import requests
 import json
 import os
-from requests_toolbelt.multipart.encoder import MultipartEncoder
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -21,7 +19,7 @@ def scan(file_name, hash, scan_type="apk"):
     )
     subprocess.getoutput(curl_scan)
 
-for f in os.listdir("apks"):
+for f in os.listdir("../apks"):
     print("Uploading " + f)
     fn= "apks/"+f
     if not fn.endswith(".apk"):
