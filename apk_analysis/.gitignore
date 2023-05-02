@@ -1,5 +1,6 @@
-json/**
+**/json/**
 apks/**
-artifacts/**
+**/artifacts/**
 env/**
 .env
+export.json

@@ -1,0 +1,410 @@
+[
+  {
+    "app_name": "Joplin",
+    "md5": "d18e6b48e6912702ef89340d5ee461ed",
+    "features": [
+      "Open With' Dialogue",
+      "Network Access",
+      "Permissions",
+      "Location Services",
+      "Notifications",
+      "File Storage",
+      "Camera Access"
+    ],
+    "apis": [
+      {
+        "name": "api_local_file_io",
+        "desc": "Local File I/O Operations"
+      },
+      {
+        "name": "api_base64_decode",
+        "desc": "Base64 Decode"
+      },
+      {
+        "name": "api_crypto",
+        "desc": "Crypto"
+      },
+      {
+        "name": "api_ipc",
+        "desc": "Inter Process Communication"
+      },
+      {
+        "name": "api_certificate_handling",
+        "desc": "Certificate Handling"
+      },
+      {
+        "name": "api_get_system_service",
+        "desc": "Get System Service"
+      },
+      {
+        "name": "api_clipboard",
+        "desc": "Set or Read Clipboard data"
+      },
+      {
+        "name": "api_webview",
+        "desc": "WebView JavaScript Interface"
+      },
+      {
+        "name": "api_webview_get",
+        "desc": "WebView GET Request"
+      },
+      {
+        "name": "api_webview_post",
+        "desc": "WebView POST Request"
+      },
+      {
+        "name": "api_base64_encode",
+        "desc": "Base64 Encode"
+      },
+      {
+        "name": "api_start_activity",
+        "desc": "Starting Activity"
+      },
+      {
+        "name": "api_installed",
+        "desc": "Get Installed Applications"
+      },
+      {
+        "name": "api_tcp",
+        "desc": "TCP Socket"
+      },
+      {
+        "name": "api_message_digest",
+        "desc": "Message Digest"
+      },
+      {
+        "name": "api_java_reflection",
+        "desc": "Java Reflection"
+      },
+      {
+        "name": "api_send_broadcast",
+        "desc": "Sending Broadcast"
+      },
+      {
+        "name": "api_sms_call",
+        "desc": "Query Database of SMS, Contacts etc"
+      },
+      {
+        "name": "api_http_connection",
+        "desc": "HTTP Connection"
+      },
+      {
+        "name": "api_gps",
+        "desc": "GPS Location"
+      },
+      {
+        "name": "api_notifications",
+        "desc": "Android Notifications"
+      },
+      {
+        "name": "api_get_wifi",
+        "desc": "Get WiFi Details"
+      },
+      {
+        "name": "api_get_network",
+        "desc": "Get Network Interface information"
+      }
+    ],
+    "mitigations": {
+      "Application Developer Guidance": 0.0,
+      "Attestation": 0.0,
+      "Deploy Compromised Device Detection Method": 0.0,
+      "Encrypt Network Traffic": 0.0,
+      "Enterprise Policy": 0.0,
+      "Interconnection Filtering": 1.0,
+      "Lock Bootloader": 0.0,
+      "Security Updates": 0.0,
+      "System Partition Integrity": 0.0,
+      "Use Recent OS Version": 0.08,
+      "User Guidance": 0.09
+    }
+  },
+  {
+    "app_name": "Libre Camera",
+    "md5": "da0d1f772f8bd23e42673cc28b094f01",
+    "features": [
+      "Open With' Dialogue",
+      "Permissions",
+      "Audio Capture Permissions",
+      "Third Party Libraries",
+      "File Storage",
+      "Camera Access"
+    ],
+    "apis": [
+      {
+        "name": "api_get_system_service",
+        "desc": "Get System Service"
+      },
+      {
+        "name": "api_java_reflection",
+        "desc": "Java Reflection"
+      },
+      {
+        "name": "api_start_activity",
+        "desc": "Starting Activity"
+      },
+      {
+        "name": "api_ipc",
+        "desc": "Inter Process Communication"
+      },
+      {
+        "name": "api_local_file_io",
+        "desc": "Local File I/O Operations"
+      },
+      {
+        "name": "api_native_code",
+        "desc": "Loading Native Code (Shared Library)"
+      },
+      {
+        "name": "api_installed",
+        "desc": "Get Installed Applications"
+      },
+      {
+        "name": "api_base64_encode",
+        "desc": "Base64 Encode"
+      },
+      {
+        "name": "api_base64_decode",
+        "desc": "Base64 Decode"
+      },
+      {
+        "name": "api_send_broadcast",
+        "desc": "Sending Broadcast"
+      },
+      {
+        "name": "api_clipboard",
+        "desc": "Set or Read Clipboard data"
+      },
+      {
+        "name": "api_content_provider",
+        "desc": "Content Provider"
+      }
+    ],
+    "mitigations": []
+  },
+  {
+    "app_name": "Bitwarden",
+    "md5": "00aaadcbc61663ad601d6d3fe877779e",
+    "features": [
+      "Network Access",
+      "Permissions",
+      "Third Party Libraries",
+      "File Storage",
+      "Camera Access"
+    ],
+    "apis": [
+      {
+        "name": "api_local_file_io",
+        "desc": "Local File I/O Operations"
+      },
+      {
+        "name": "api_get_system_service",
+        "desc": "Get System Service"
+      },
+      {
+        "name": "api_ipc",
+        "desc": "Inter Process Communication"
+      },
+      {
+        "name": "api_java_reflection",
+        "desc": "Java Reflection"
+      },
+      {
+        "name": "api_start_service",
+        "desc": "Starting Service"
+      },
+      {
+        "name": "api_base64_encode",
+        "desc": "Base64 Encode"
+      },
+      {
+        "name": "api_base64_decode",
+        "desc": "Base64 Decode"
+      },
+      {
+        "name": "api_kill_process",
+        "desc": "Kill Process"
+      },
+      {
+        "name": "api_crypto",
+        "desc": "Crypto"
+      },
+      {
+        "name": "api_message_digest",
+        "desc": "Message Digest"
+      },
+      {
+        "name": "api_tcp",
+        "desc": "TCP Socket"
+      },
+      {
+        "name": "api_https_connection",
+        "desc": "HTTPS Connection"
+      },
+      {
+        "name": "api_certificate_handling",
+        "desc": "Certificate Handling"
+      },
+      {
+        "name": "api_content_provider",
+        "desc": "Content Provider"
+      },
+      {
+        "name": "api_clipboard",
+        "desc": "Set or Read Clipboard data"
+      },
+      {
+        "name": "api_native_code",
+        "desc": "Loading Native Code (Shared Library)"
+      },
+      {
+        "name": "api_url",
+        "desc": "URL Connection to file/http/https/ftp/jar"
+      }
+    ],
+    "mitigations": {
+      "Application Developer Guidance": 0.0,
+      "Attestation": 0.11,
+      "Deploy Compromised Device Detection Method": 0.0,
+      "Encrypt Network Traffic": 0.0,
+      "Enterprise Policy": 0.0,
+      "Interconnection Filtering": 1.0,
+      "Lock Bootloader": 0.0,
+      "Security Updates": 0.0,
+      "System Partition Integrity": 0.0,
+      "Use Recent OS Version": 0.17,
+      "User Guidance": 0.04
+    }
+  },
+  {
+    "app_name": "Tachiyomi",
+    "md5": "3ff43aa51c2ab2bae77f58e50b30efc3",
+    "features": [
+      "Open With' Dialogue",
+      "Network Access",
+      "Permissions",
+      "Third Party Libraries",
+      "Notifications",
+      "File Storage"
+    ],
+    "apis": [
+      {
+        "name": "api_local_file_io",
+        "desc": "Local File I/O Operations"
+      },
+      {
+        "name": "api_java_reflection",
+        "desc": "Java Reflection"
+      },
+      {
+        "name": "api_tcp",
+        "desc": "TCP Socket"
+      },
+      {
+        "name": "api_ipc",
+        "desc": "Inter Process Communication"
+      },
+      {
+        "name": "api_start_activity",
+        "desc": "Starting Activity"
+      },
+      {
+        "name": "api_installed",
+        "desc": "Get Installed Applications"
+      },
+      {
+        "name": "api_message_digest",
+        "desc": "Message Digest"
+      },
+      {
+        "name": "api_get_system_service",
+        "desc": "Get System Service"
+      },
+      {
+        "name": "api_crypto",
+        "desc": "Crypto"
+      },
+      {
+        "name": "api_native_code",
+        "desc": "Loading Native Code (Shared Library)"
+      },
+      {
+        "name": "api_sms_call",
+        "desc": "Query Database of SMS, Contacts etc"
+      },
+      {
+        "name": "api_os_command",
+        "desc": "Execute OS Command"
+      },
+      {
+        "name": "api_http_connection",
+        "desc": "HTTP Connection"
+      },
+      {
+        "name": "api_url",
+        "desc": "URL Connection to file/http/https/ftp/jar"
+      },
+      {
+        "name": "api_https_connection",
+        "desc": "HTTPS Connection"
+      },
+      {
+        "name": "api_base64_encode",
+        "desc": "Base64 Encode"
+      },
+      {
+        "name": "api_certificate_handling",
+        "desc": "Certificate Handling"
+      },
+      {
+        "name": "api_content_provider",
+        "desc": "Content Provider"
+      },
+      {
+        "name": "api_tcp_server",
+        "desc": "TCP Server Socket"
+      },
+      {
+        "name": "api_kill_process",
+        "desc": "Kill Process"
+      },
+      {
+        "name": "api_base64_decode",
+        "desc": "Base64 Decode"
+      },
+      {
+        "name": "api_clipboard",
+        "desc": "Set or Read Clipboard data"
+      },
+      {
+        "name": "api_get_wifi",
+        "desc": "Get WiFi Details"
+      },
+      {
+        "name": "api_get_network",
+        "desc": "Get Network Interface information"
+      },
+      {
+        "name": "api_notifications",
+        "desc": "Android Notifications"
+      },
+      {
+        "name": "api_send_broadcast",
+        "desc": "Sending Broadcast"
+      }
+    ],
+    "mitigations": {
+      "Application Developer Guidance": 0.0,
+      "Attestation": 0.11,
+      "Deploy Compromised Device Detection Method": 0.0,
+      "Encrypt Network Traffic": 0.0,
+      "Enterprise Policy": 0.0,
+      "Interconnection Filtering": 1.0,
+      "Lock Bootloader": 0.0,
+      "Security Updates": 0.0,
+      "System Partition Integrity": 0.0,
+      "Use Recent OS Version": 0.08,
+      "User Guidance": 0.04
+    }
+  }
+]
