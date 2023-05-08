@@ -52,20 +52,24 @@ def add_snippet(app_name, files):
     return out
 
 def get_hashes():
-    res = requests.get(base_url + "/scans", headers=headers).json()
+    res = requests.get(base_url + "/scans?page=1&page_size=400", headers=headers).json()
     hashes = [i.get("MD5") for i in res.get("content")]
+    print(len(hashes))
     return hashes
 
 def main():
     export = []
+    counter = 0
     for hash in get_hashes():
+        counter += 1
+        print(counter)
         apk_pkg = {}
         payload = {
             "hash": hash,
         }
 
         res = requests.post(base_url + "/report_json", headers=headers, data=payload).json()
-        app_name = res.get("app_name")
+        app_name = res.get("app_name").replace("/", "_")
         api_data = res.get("android_api")
         library_data = res.get("libraries")
         permission_data = res.get("permissions")
@@ -77,14 +81,14 @@ def main():
         with open(f"json/{app_name}.json", "w") as f:
             json.dump(res, f, indent=2)
         
-        apk_pkg["apis"] = []
+        # apk_pkg["apis"] = []
         for k, v in api_data.items():
-            api_pkg = {}
-            api_pkg["name"] = k
-            api_pkg["desc"] = v.get("metadata").get("description")
-            download_artifacts(app_name, hash, v.get("files"))
+            # api_pkg = {}
+            # api_pkg["name"] = k
+            # api_pkg["desc"] = v.get("metadata").get("description")
+            # download_artifacts(app_name, hash, v.get("files"))
             # api_pkg["snippets"] = add_snippet(app_name, v.get("files"))
-            apk_pkg["apis"].append(api_pkg)
+            # apk_pkg["apis"].append(api_pkg)
             
             for feature, apis in mappings.items():
                 if k in apis:

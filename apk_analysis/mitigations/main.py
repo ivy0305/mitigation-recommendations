@@ -20,7 +20,10 @@ for f in os.listdir("mitigations/json"):
                     apk["mitigations"] = []
             continue
 
-        tactics = data.get("Zenbox android").get("tactics")
+        tactics = data.get("Zenbox android")
+        if tactics is None:
+            tactics = data.get("Zenbox Linux")
+        tactics = tactics.get("tactics")
         techniques = []
         for tactic in tactics:
             techniques += tactic.get("techniques")
