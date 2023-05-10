@@ -210,5 +210,31 @@
       "dotpoints": [],
       "relatedMitigations": []
     }
+  },
+  {
+    "mitigation": "Lock Bootloader",
+    "vulnerabilities": [],
+    "features": ["generalDeviceSecurity"],
+    "priority": "low",
+    "degree": 0.0,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1003/",
+      "summary": "Performs periodic checks to ensure that the bootloader is locked for devices that provide the capability to unlock the bootloader.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
+  },
+  {
+    "mitigation": "System Partition Integrity",
+    "vulnerabilities": [],
+    "features": ["generalDeviceSecurity"],
+    "priority": "low",
+    "degree": 0.0,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1004/",
+      "summary": "Ensures that Android devices being used include and enable the Verified Boot capability, which cryptographically ensures the integrity of the system partition.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
   }
 ]
