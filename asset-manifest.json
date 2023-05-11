@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/mitigation-recommendations/static/css/main.cbbd40b5.css",
-    "main.js": "/mitigation-recommendations/static/js/main.df0876b9.js",
+    "main.js": "/mitigation-recommendations/static/js/main.ca978fab.js",
     "static/js/787.8cf76a6a.chunk.js": "/mitigation-recommendations/static/js/787.8cf76a6a.chunk.js",
     "static/media/background.svg": "/mitigation-recommendations/static/media/background.7ca7fdb3e68d3d752962.svg",
     "index.html": "/mitigation-recommendations/index.html",
     "main.cbbd40b5.css.map": "/mitigation-recommendations/static/css/main.cbbd40b5.css.map",
-    "main.df0876b9.js.map": "/mitigation-recommendations/static/js/main.df0876b9.js.map",
+    "main.ca978fab.js.map": "/mitigation-recommendations/static/js/main.ca978fab.js.map",
     "787.8cf76a6a.chunk.js.map": "/mitigation-recommendations/static/js/787.8cf76a6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbbd40b5.css",
-    "static/js/main.df0876b9.js"
+    "static/js/main.ca978fab.js"
   ]
 }
