@@ -9,7 +9,7 @@ headers = {
     "Authorization": os.environ.get("API_KEY")
 }
 
-with open("mappings.json", "r") as f:
+with open("features/mappings.json", "r") as f:
     mappings = json.load(f)
 
 class SetEncoder(json.JSONEncoder):
@@ -33,7 +33,7 @@ def download_artifacts(app_name, hash, files):
             "type": "apk"
         }
         res = requests.post(base_url + "/view_source", headers=headers, data=payload).json()
-        file_path = f"artifacts/{app_name}/{file}"
+        file_path = f"features/artifacts/{app_name}/{file}"
         create_dir(file_path)
         with open(file_path, "w") as f:
             f.write(res.get("data"))
@@ -44,7 +44,7 @@ def add_snippet(app_name, files):
         snippet_pkg = {}
         lines = [int(i) for i in v.split(",")]
         snippet_pkg[file] = {}
-        with open(f"artifacts/{app_name}/{file}", "r") as f:
+        with open(f"features/artifacts/{app_name}/{file}", "r") as f:
             for i, line in enumerate(f):
                 if i+1 in lines:
                     snippet_pkg[file][i+1] = line.rstrip("\n")
@@ -78,7 +78,7 @@ def main():
         apk_pkg["features"] = set()
 
         print(f"Processing {app_name}...")
-        with open(f"json/{app_name}.json", "w") as f:
+        with open(f"features/json/{app_name}.json", "w") as f:
             json.dump(res, f, indent=2)
         
         # apk_pkg["apis"] = []
@@ -107,7 +107,7 @@ def main():
             if "android.permission.RECORD_AUDIO" in permission_data:
                 apk_pkg["features"].add("Audio Capture Permissions")
         
-    with open("../export.json", "w") as f:
+    with open("export.json", "w") as f:
         json.dump(export, f, indent=2, cls=SetEncoder)
 
 if __name__ == "__main__":

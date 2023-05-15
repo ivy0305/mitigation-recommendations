@@ -19,12 +19,12 @@ def scan(file_name, hash, scan_type="apk"):
     )
     subprocess.getoutput(curl_scan)
 
-for f in os.listdir("../apks"):
+for f in os.listdir("apks"):
     print("Uploading " + f)
     fn= "apks/"+f
     if not fn.endswith(".apk"):
         continue
-    template = 'curl --silent -F "file=@../{apk}" {url} -H "Authorization:{api_key}"'
+    template = 'curl --silent -F "file=@{apk}" {url} -H "Authorization:{api_key}"'
     curl_scan = template.format(
         url=f'{base_url}/upload',
         apk=fn,
