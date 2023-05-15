@@ -57,6 +57,7 @@ Each mitigation is given in the following format:
     "vulnerabilities": ["Vuln 1", "Vuln 2"],
     "features": ["Feature 1", "Feature 2"],
     "priority": "low",
+    "degree": {float value},
     "details": {
       "link": "https://attack.mitre.org/mitigations/{mitigation link here}/",
       "summary": "Details of mitigation technique.",

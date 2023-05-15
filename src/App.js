@@ -32,6 +32,7 @@ function App() {
     openWithDialogue: false,
     audioCapturePermissions: false,
     phoneCallPermissions: false,
+    generalDeviceSecurity: false,
     all: false,
     // calendarIntegration: false,
     // mediaPlayback: false,
@@ -119,7 +120,8 @@ function App() {
   return (
     <div className="App">
       <h1>
-        Mobile Application Security: Recommendations of Attack Mitigations
+        Android Mobile Application Security: Recommendations of Attack
+        Mitigations
       </h1>
 
       <Card className="featureCard">
@@ -168,7 +170,7 @@ function App() {
       </Card>
 
       <div className="infoCards">
-        <h3>Related Mitigations:</h3>
+        <h3>Recommended Mitigations (in order of priority):</h3>
         {noFeaturesChecked ? (
           <p>Select at least one feature to display results.</p>
         ) : (
