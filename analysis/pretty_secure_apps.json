@@ -1,0 +1,2137 @@
+[
+    {
+        "app_name": "QR & Barcode Scanner",
+        "md5": "1938a05fbbb76287a4b8239d8aed8e84",
+        "features": [
+            "Permissions",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue",
+            "Camera Access"
+        ],
+        "mitigations": [],
+        "security_score": 64
+    },
+    {
+        "app_name": "Quick Calculation",
+        "md5": "19ab593902b121a1afc0109c302f7b87",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Volta",
+        "md5": "ab10d34b1e4389a5e248cf2b366172dd",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "Third Party Libraries",
+            "File Storage"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "Mastodon",
+        "md5": "12dcb1382304f0e0d27149388eb736a6",
+        "features": [
+            "Permissions",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 60
+    },
+    {
+        "app_name": "LibChecker",
+        "md5": "63914982496ae09defe7dc10b9b0be80",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "CollinsDictionary",
+        "md5": "935d03cd3afc65a5e7fee1c5de5a5975",
+        "features": [
+            "Permissions",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 64
+    },
+    {
+        "app_name": "Coffee",
+        "md5": "791c37531947df32c92845cbdee68f5d",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Clima",
+        "md5": "aac8dbd1193600a05b64c9366cadd4b8",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Third Party Libraries"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "PilferShush Jammer",
+        "md5": "c7afee947c9c019eec9da227b3fc4148",
+        "features": [
+            "Permissions",
+            "Audio Capture Permissions",
+            "Notifications",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.12,
+            "User Guidance": 0.13
+        },
+        "security_score": 67
+    },
+    {
+        "app_name": "Captive Portal Controller",
+        "md5": "e006f890e9ea02a07a3a9cb5f4aedf74",
+        "features": [
+            "Permissions",
+            "File Storage"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "Battery Tool",
+        "md5": "987e8f947d3c26f742d15eb844870c4d",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.09
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Imagepipe",
+        "md5": "d5200c57be11576f3f20643a35fa185e",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Image Resizer",
+        "md5": "62466d7b76a1858d7468e8aaf0d8ad64",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "HexViewer",
+        "md5": "21ce9c0645aa857eb2278c79249f36bb",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 67
+    },
+    {
+        "app_name": "FreeOTP+",
+        "md5": "3a229e13c12ebe4a41d922daec303edf",
+        "features": [
+            "Permissions",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue",
+            "Camera Access"
+        ],
+        "mitigations": [],
+        "security_score": 60
+    },
+    {
+        "app_name": "Anchr",
+        "md5": "2a6ef95694a596058ac95d15c1b5616c",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.09,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.11,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.04
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "An Light",
+        "md5": "13241610a60b903fcb3f67ec28597177",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.11,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.04
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "TriPeaks",
+        "md5": "088f5dccbbb8d339573987ce86dc35ab",
+        "features": [
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "AirGuard",
+        "md5": "d33643ee2b017e2e82f4181009c902ca",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.11,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Lawnchair",
+        "md5": "751cfefc00df938af1a3e94da9b760e5",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Simple Time Tracker",
+        "md5": "1eef0acf3712fdf1b389bfd7497c804a",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Notifications"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 67
+    },
+    {
+        "app_name": "Beat Feet",
+        "md5": "56b5083277d4c8bed037588367f3cccd",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Network Access"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Simple Material Notes",
+        "md5": "2a44ab99e1b18bc6379abd86d6f5bb04",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "Dark theme",
+        "md5": "dda16345755874875924abd40ff9242d",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "Third Party Libraries",
+            "File Storage"
+        ],
+        "mitigations": [],
+        "security_score": 60
+    },
+    {
+        "app_name": "omWeather",
+        "md5": "30ada0de7953ad3fc4a42d78b28ae196",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.04
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Audio Spectrum Analyzer",
+        "md5": "e73e34e595bbb0e4dcfc1a24dcdf4b82",
+        "features": [
+            "Permissions",
+            "Audio Capture Permissions",
+            "Third Party Libraries",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.09
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "hEARtest",
+        "md5": "e81d130700ae476e1ec048b5770b6432",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "Wikipedia",
+        "md5": "7685a8f15cd8c45ad30ce4e094db9514",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.11,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.12,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Tux Paint",
+        "md5": "a17aa5593e00e11aee864895ded0c6c2",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": [],
+        "security_score": 67
+    },
+    {
+        "app_name": "Sensorkraken",
+        "md5": "c6a8084dd9a6a2c63a92f554e86ca65b",
+        "features": [
+            "Permissions",
+            "Audio Capture Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.11,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.12,
+            "User Guidance": 0.09
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Auxio",
+        "md5": "a343cf375a05f8d9195969fb8b937817",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "OONI Probe",
+        "md5": "085ea00032083b487f8d641419666ab7",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 67
+    },
+    {
+        "app_name": "Open Sudoku",
+        "md5": "d9c950510b001f3d5d8dbd66cfa34df6",
+        "features": [
+            "Open With' Dialogue",
+            "Third Party Libraries",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "Chord Reader 2",
+        "md5": "8d783c99a5343397b90001dd67290266",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Third Party Libraries"
+        ],
+        "mitigations": [],
+        "security_score": 60
+    },
+    {
+        "app_name": "The Translator",
+        "md5": "1a5956351b6fa5c08fc0156c20fea657",
+        "features": [
+            "Location Services",
+            "Open With' Dialogue",
+            "Permissions",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "Super Retro Mega Wars",
+        "md5": "61a411c19621b90f7c2f31e5ceac773d",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Network Access"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "BatteryBot Pro",
+        "md5": "5250376dae212fa14886156404794501",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Notifications"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 67
+    },
+    {
+        "app_name": "TTS Util",
+        "md5": "620d4ed43b8c22eb19d2014b115f0f7f",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "DeadHash",
+        "md5": "df5cc80bbec300b0fa652a8bd9becb3c",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Third Party Libraries"
+        ],
+        "mitigations": [],
+        "security_score": 64
+    },
+    {
+        "app_name": "Simple Chess Clock",
+        "md5": "4b684467bcf53d6fb6ef8e23376f150a",
+        "features": [
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Mavinote",
+        "md5": "669b181ed97c6d0d33c7a5b07755c3bd",
+        "features": [
+            "Permissions"
+        ],
+        "mitigations": [],
+        "security_score": 64
+    },
+    {
+        "app_name": "Scoop",
+        "md5": "9255baf3b4af8036e90196aaae8e2e1f",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.09
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "SuperTuxKart",
+        "md5": "fe079a743fcfbba8504dcf5f51fbde83",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Network Access"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Sobriety",
+        "md5": "1f94362ab9df349475369863497e0f8e",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "Third Party Libraries",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "Smart AutoClicker",
+        "md5": "b9747de14a53f51d57e20541f47875ec",
+        "features": [
+            "Permissions",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Silence",
+        "md5": "d5395cbcb98bf5ec4fadca9b88a45920",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 60
+    },
+    {
+        "app_name": "Pocket Paint",
+        "md5": "d0f41f0e3ca35a67e18495c07475df1d",
+        "features": [
+            "Permissions",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Calyx VPN",
+        "md5": "c0ffafcd34c92bf43b68d68ec525a5e0",
+        "features": [
+            "Permissions",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 60
+    },
+    {
+        "app_name": "Gurgle",
+        "md5": "888851d4c448a4e67ec46c8289f7a597",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Editor",
+        "md5": "f17aa273dbb79c6439c793dbb691b5ff",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Openreads",
+        "md5": "c934fea6c9a3977c9e0f7e2d89115ef3",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue",
+            "Camera Access"
+        ],
+        "mitigations": [],
+        "security_score": 64
+    },
+    {
+        "app_name": "ObscuraCam",
+        "md5": "c9c85911f3868abc56af81dd65aa3816",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Network Access"
+        ],
+        "mitigations": [],
+        "security_score": 62
+    },
+    {
+        "app_name": "CPU Info",
+        "md5": "c7db8788969fd41df963720841ea8332",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.09
+        },
+        "security_score": 67
+    },
+    {
+        "app_name": "Acode",
+        "md5": "b2701f4e85106e7567004a78aa8d6385",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "Network Access"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "D\u00e9kaDico",
+        "md5": "51e4bb1f483d7fa7555823a583e26fda",
+        "features": [
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": [],
+        "security_score": 64
+    },
+    {
+        "app_name": "Chess",
+        "md5": "df145a07c9e51679a2bee7926334ccd1",
+        "features": [
+            "Permissions",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Unexpected Keyboard",
+        "md5": "2af7634d1dba773c8a64bc2eb744f4bb",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "ViMusic",
+        "md5": "d4f7398758427035814b4a3164ba203a",
+        "features": [
+            "Permissions",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 65
+    },
+    {
+        "app_name": "mpv",
+        "md5": "471f83f2f2f5e29635fc5ef01be53016",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Notifications"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "LibreHealth Cost Of Care Explorer",
+        "md5": "fe896ce98fdb79a3130dac1d075768dd",
+        "features": [
+            "Location Services",
+            "Open With' Dialogue",
+            "Permissions",
+            "File Storage"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "Discreet Launcher",
+        "md5": "4bf55b7b6649d2fd8e6ec79c00e8b3fc",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.09
+        },
+        "security_score": 67
+    },
+    {
+        "app_name": "Freebloks",
+        "md5": "b48876002a725be377e431e5f33d49c8",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "Tuner",
+        "md5": "cce06d8907f9c95c9dd34aef38968439",
+        "features": [
+            "Permissions",
+            "Audio Capture Permissions",
+            "Third Party Libraries",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.09
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Metronome",
+        "md5": "a6066b6648235faf21e5d62a4b69aaba",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 64
+    },
+    {
+        "app_name": "Noten lernen",
+        "md5": "089f53aa56e3981bdeaeab3d790c85af",
+        "features": [
+            "Permissions"
+        ],
+        "mitigations": [],
+        "security_score": 67
+    },
+    {
+        "app_name": "LibreTranslator",
+        "md5": "aa6d67d417c52c56b81841382387055b",
+        "features": [
+            "Location Services",
+            "Open With' Dialogue",
+            "Permissions",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 67
+    },
+    {
+        "app_name": "De-Bloater",
+        "md5": "f77ef92ac15f73fee6adf42c546263fe",
+        "features": [
+            "Location Services",
+            "Open With' Dialogue",
+            "Permissions",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.09
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "Forecastie",
+        "md5": "c5537fb2ccbd867f4be26d8426462a6c",
+        "features": [
+            "Permissions",
+            "Notifications",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "Converter NOW",
+        "md5": "5ec0087f6a58bfe46c9f611dbe69c126",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "Third Party Libraries",
+            "File Storage"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "Session",
+        "md5": "fcff5548c189142c7df17a3f47ede8b6",
+        "features": [
+            "Permissions",
+            "Audio Capture Permissions",
+            "Phone Call Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue",
+            "Camera Access"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.11,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.17,
+            "User Guidance": 0.09
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "Emacs",
+        "md5": "8dced227b0da6565d57c2d5ac45f73e2",
+        "features": [
+            "Permissions",
+            "Audio Capture Permissions",
+            "Notifications",
+            "File Storage",
+            "Open With' Dialogue",
+            "Camera Access"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.12,
+            "User Guidance": 0.09
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "Doodle",
+        "md5": "4777b2e33a6e4ba8bda3bcb1157f77d1",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "Third Party Libraries",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Geoperion",
+        "md5": "234adc92658ed1fb04e2ad1c2e0aaeb5",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Network Access"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "DeepL",
+        "md5": "7bce78704c352b3ed8a7326333a915bd",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Minetest",
+        "md5": "f8a97381cd19ad64f7d90e913fecd1e3",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Notifications"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 67
+    },
+    {
+        "app_name": "Riseup VPN",
+        "md5": "8dac02e096a95f1b4c7ebcf8aa057d3c",
+        "features": [
+            "Permissions",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 60
+    },
+    {
+        "app_name": "Quillpad",
+        "md5": "e75726c18888af1a8fc109738694727a",
+        "features": [
+            "Permissions",
+            "Audio Capture Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.11,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.12,
+            "User Guidance": 0.09
+        },
+        "security_score": 62
+    },
+    {
+        "app_name": "Proton VPN",
+        "md5": "b22ad5f54f60758de58951313da4097d",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "Pixel Wheels",
+        "md5": "d29ecf6dd7e575f0312fec13c621523d",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Network Access"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.09
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Phonograph Plus",
+        "md5": "122f750fa5c1b16e7ca4048276d5c976",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "Dialog Music Player",
+        "md5": "cc663f299d4438f402dde509207b47e5",
+        "features": [
+            "Location Services",
+            "Open With' Dialogue",
+            "File Storage",
+            "Permissions"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "PDF Viewer",
+        "md5": "9c753266413cae797d3e062122f0d51b",
+        "features": [
+            "Location Services",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": [],
+        "security_score": 67
+    },
+    {
+        "app_name": "Mullvad VPN",
+        "md5": "7eae9ff722fe74a5ded440f981596473",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.09
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "IVPN",
+        "md5": "84496a5094ba226de20df626e36ec59a",
+        "features": [
+            "Permissions",
+            "Notifications",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue",
+            "Camera Access"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.09
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "Mill",
+        "md5": "d1dc38f340fd3beafb6ece9905f0f862",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Third Party Libraries"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "MysteriumVPN",
+        "md5": "afa28a7a774669026ea8a15ebbd2b081",
+        "features": [
+            "Permissions",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.11,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.04
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Meshenger",
+        "md5": "f2daeb7e6ad071cece246322d1ce0e14",
+        "features": [
+            "Permissions",
+            "Audio Capture Permissions",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue",
+            "Camera Access"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.09
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "Paseo",
+        "md5": "202321a5b5e2ff12e74e2892b4a0768f",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Kodi",
+        "md5": "9120c683a661eed008bd3bae0f6216d6",
+        "features": [
+            "Permissions",
+            "Audio Capture Permissions",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.11,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.12,
+            "User Guidance": 0.09
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "Odeon",
+        "md5": "1b623ac7f0c99edeb63786945a1e3afa",
+        "features": [
+            "Permissions",
+            "Notifications",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 60
+    },
+    {
+        "app_name": "Flashy",
+        "md5": "ca454ba05b081cc3368194b96a8cc79d",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "File Storage",
+            "Open With' Dialogue",
+            "Camera Access"
+        ],
+        "mitigations": [],
+        "security_score": 61
+    },
+    {
+        "app_name": "FFShare",
+        "md5": "80cb9acd9031a88fbd4529fc3f5ebccb",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Feudal Tactics",
+        "md5": "46944a1ad57b6689efc7b03d4b5bf98e",
+        "features": [
+            "Open With' Dialogue",
+            "File Storage",
+            "Network Access"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Everest",
+        "md5": "fc5cdca8fd3302403df02886c33eb8d2",
+        "features": [
+            "Open With' Dialogue",
+            "File Storage",
+            "Third Party Libraries"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.09,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.11,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "CDLC Player",
+        "md5": "0f58c8fcce4504d9e4219fd37ddde801",
+        "features": [
+            "Location Services",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "yetCalc",
+        "md5": "0c2dd011c5aef3cfda2888a98c40cce0",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "Third Party Libraries",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 61
+    },
+    {
+        "app_name": "Zoysii",
+        "md5": "e5e655d8730bd24c17de9ae7b237ae24",
+        "features": [
+            "Open With' Dialogue",
+            "Third Party Libraries",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Xeonjia",
+        "md5": "c8ad630c3aed39c8a0ae3957a89e93a6",
+        "features": [
+            "Open With' Dialogue",
+            "File Storage",
+            "Third Party Libraries"
+        ],
+        "mitigations": [],
+        "security_score": 60
+    },
+    {
+        "app_name": "Quinb",
+        "md5": "d1adefef0e953937ee552c2c52e27833",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage",
+            "Third Party Libraries"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 60
+    },
+    {
+        "app_name": "Weather",
+        "md5": "7f0816fc8595630faaf50a1442ca57ac",
+        "features": [
+            "Location Services",
+            "Open With' Dialogue",
+            "Permissions",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 67
+    },
+    {
+        "app_name": "Vigilante",
+        "md5": "8395b6a5c038e80dc4243f7c68261f77",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.11,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.12,
+            "User Guidance": 0.04
+        },
+        "security_score": 65
+    },
+    {
+        "app_name": "Extirpater",
+        "md5": "37355944e8d449f3fcf239b89dfbfdb2",
+        "features": [
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.0,
+            "User Guidance": 0.0
+        },
+        "security_score": 64
+    },
+    {
+        "app_name": "Treble Info",
+        "md5": "9f0592c4db69c751c8833da398b57647",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "Third Party Libraries",
+            "File Storage"
+        ],
+        "mitigations": [],
+        "security_score": 60
+    },
+    {
+        "app_name": "LTE Cleaner",
+        "md5": "63a2eb3d37bc7fbd2f854b15ee9bed4e",
+        "features": [
+            "Permissions"
+        ],
+        "mitigations": [],
+        "security_score": 67
+    }
+]

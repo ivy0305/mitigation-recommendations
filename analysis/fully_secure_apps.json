@@ -1,0 +1,191 @@
+[
+    {
+        "app_name": "Little File Explorer",
+        "md5": "14173c618bc9e53bbbaecc63dad3bb65",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 73
+    },
+    {
+        "app_name": "FutharkBoard",
+        "md5": "3098cd82ec0bf28f95a171d227b6eb2f",
+        "features": [
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 73
+    },
+    {
+        "app_name": "RadarWeather",
+        "md5": "e0857f3a694e5f224fc7b6aa80336205",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": [],
+        "security_score": 70
+    },
+    {
+        "app_name": "Krita",
+        "md5": "6d91b0a06bd7675c8880f776bd930ba9",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "File Storage"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.0
+        },
+        "security_score": 70
+    },
+    {
+        "app_name": "BusyBox Installer",
+        "md5": "a2650055db2fac6424706b1068badffd",
+        "features": [
+            "Location Services",
+            "Open With' Dialogue",
+            "Permissions",
+            "File Storage"
+        ],
+        "mitigations": [],
+        "security_score": 78
+    },
+    {
+        "app_name": "Little Music Player",
+        "md5": "d54e0d7c71a97341c467bbc64d63be3c",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue",
+            "Notifications"
+        ],
+        "mitigations": [],
+        "security_score": 85
+    },
+    {
+        "app_name": "Brainf",
+        "md5": "0c1ecc4f1be53a8e497f8b887bc1a101",
+        "features": [
+            "Open With' Dialogue",
+            "File Storage",
+            "Third Party Libraries"
+        ],
+        "mitigations": [],
+        "security_score": 73
+    },
+    {
+        "app_name": "Voice",
+        "md5": "e66d4d004308d33aea686ad67fa3e6c2",
+        "features": [
+            "Permissions",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 70
+    },
+    {
+        "app_name": "GCompris",
+        "md5": "c0b116bccf8a02f817ad43877f1e580d",
+        "features": [
+            "Permissions",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 0.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.0
+        },
+        "security_score": 70
+    },
+    {
+        "app_name": "Music Player GO",
+        "md5": "4dae482a8390874b71eb131e3d069e64",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "Location Services",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.0,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.04,
+            "User Guidance": 0.04
+        },
+        "security_score": 70
+    },
+    {
+        "app_name": "Filester",
+        "md5": "afce2cbecb42460150ef080bba2a709a",
+        "features": [
+            "Permissions",
+            "Third Party Libraries",
+            "Notifications",
+            "Network Access",
+            "File Storage",
+            "Open With' Dialogue"
+        ],
+        "mitigations": {
+            "Application Developer Guidance": 0.0,
+            "Attestation": 0.11,
+            "Deploy Compromised Device Detection Method": 0.0,
+            "Encrypt Network Traffic": 0.0,
+            "Enterprise Policy": 0.0,
+            "Interconnection Filtering": 1.0,
+            "Lock Bootloader": 0.0,
+            "Security Updates": 0.0,
+            "System Partition Integrity": 0.0,
+            "Use Recent OS Version": 0.08,
+            "User Guidance": 0.04
+        },
+        "security_score": 70
+    }
+]

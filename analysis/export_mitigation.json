@@ -11,7 +11,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 40
   },
   {
     "app_name": "Moonlight (Root)",
@@ -35,7 +36,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 53
   },
   {
     "app_name": "Transportr",
@@ -59,7 +61,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "QR & Barcode Scanner",
@@ -71,17 +74,15 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 64
   },
   {
     "app_name": "OpenBoard",
     "md5": "2ed66274b25a00e933cf47111b7a97c3",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "Quick Calculation",
@@ -105,7 +106,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "Material Files",
@@ -131,7 +133,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "Aves",
@@ -157,17 +160,15 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.17,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 54
   },
   {
     "app_name": "App Launcher",
     "md5": "5dcf7ba7397cef688aedd301c440ef8c",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
+    "mitigations": [],
+    "security_score": 57
   },
   {
     "app_name": "Open Golf",
@@ -185,7 +186,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 54
   },
   {
     "app_name": "Volta",
@@ -196,7 +198,8 @@
       "Third Party Libraries",
       "File Storage"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "Read You",
@@ -220,7 +223,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "Mastodon",
@@ -232,7 +236,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 60
   },
   {
     "app_name": "Magisk",
@@ -257,7 +262,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 58
   },
   {
     "app_name": "Habits",
@@ -280,7 +286,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "LocalSend",
@@ -292,16 +299,15 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 47
   },
   {
     "app_name": "Little File Explorer",
     "md5": "14173c618bc9e53bbbaecc63dad3bb65",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue"
-    ],
-    "mitigations": []
+    "features": ["Permissions", "Open With' Dialogue"],
+    "mitigations": [],
+    "security_score": 73
   },
   {
     "app_name": "lidraughts",
@@ -315,7 +321,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 43
   },
   {
     "app_name": "lichess",
@@ -339,7 +346,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.17,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 50
   },
   {
     "app_name": "LibreTube",
@@ -352,7 +360,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 52
   },
   {
     "app_name": "LibreTorrent",
@@ -377,7 +386,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 56
   },
   {
     "app_name": "Lemuroid",
@@ -400,7 +410,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 56
   },
   {
     "app_name": "neutriNote CE",
@@ -415,13 +426,15 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 54
   },
   {
     "app_name": "To Do List",
     "md5": "cde804b8d2cd4506f956bb0b9a5dbdf2",
     "features": [],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 55
   },
   {
     "app_name": "Amaze Utilities",
@@ -435,7 +448,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 56
   },
   {
     "app_name": "LibChecker",
@@ -461,7 +475,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "CollinsDictionary",
@@ -473,16 +488,13 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 64
   },
   {
     "app_name": "Collabora Office",
     "md5": "f394451d7ca42e1caad1e5766bec98ee",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -495,7 +507,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 51
   },
   {
     "app_name": "Coffee",
@@ -519,7 +532,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "Clima",
@@ -542,7 +556,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Clock",
@@ -566,7 +581,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 41
   },
   {
     "app_name": "PilferShush Jammer",
@@ -590,7 +606,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.13
-    }
+    },
+    "security_score": 67
   },
   {
     "app_name": "Vanilla Music",
@@ -613,16 +630,15 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "Captive Portal Controller",
     "md5": "e006f890e9ea02a07a3a9cb5f4aedf74",
-    "features": [
-      "Permissions",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Permissions", "File Storage"],
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "App Manager",
@@ -647,7 +663,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 47
   },
   {
     "app_name": "Battery Tool",
@@ -672,7 +689,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "raag",
@@ -696,16 +714,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 51
   },
   {
     "app_name": "Imagepipe",
     "md5": "d5200c57be11576f3f20643a35fa185e",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -718,7 +733,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Image Resizer",
@@ -743,7 +759,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Husky Beta",
@@ -769,7 +786,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "HexViewer",
@@ -793,7 +811,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 67
   },
   {
     "app_name": "Hacker's Keyboard",
@@ -804,7 +823,8 @@
       "File Storage",
       "Notifications"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "OctoDroid",
@@ -829,7 +849,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 55
   },
   {
     "app_name": "Geometric Weather",
@@ -841,7 +862,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 52
   },
   {
     "app_name": "Gallery",
@@ -864,15 +886,15 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 55
   },
   {
     "app_name": "FutharkBoard",
     "md5": "3098cd82ec0bf28f95a171d227b6eb2f",
-    "features": [
-      "Open With' Dialogue"
-    ],
-    "mitigations": []
+    "features": ["Open With' Dialogue"],
+    "mitigations": [],
+    "security_score": 73
   },
   {
     "app_name": "Fritter",
@@ -896,7 +918,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 56
   },
   {
     "app_name": "FreeOTP+",
@@ -909,7 +932,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 60
   },
   {
     "app_name": "Aria2App",
@@ -921,16 +945,13 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 46
   },
   {
     "app_name": "Anchr",
     "md5": "2a6ef95694a596058ac95d15c1b5616c",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.09,
       "Attestation": 0.0,
@@ -943,7 +964,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "FOSS Browser",
@@ -969,7 +991,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 33
   },
   {
     "app_name": "monocles browser Test",
@@ -993,16 +1016,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 42
   },
   {
     "app_name": "An Light",
     "md5": "13241610a60b903fcb3f67ec28597177",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.11,
@@ -1015,14 +1035,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "TriPeaks",
     "md5": "088f5dccbbb8d339573987ce86dc35ab",
-    "features": [
-      "File Storage"
-    ],
+    "features": ["File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -1035,7 +1054,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "AirGuard",
@@ -1061,7 +1081,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "AFWall+",
@@ -1086,7 +1107,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 54
   },
   {
     "app_name": "AdAway",
@@ -1111,7 +1133,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 51
   },
   {
     "app_name": "Aard 2",
@@ -1135,7 +1158,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "Trail Sense",
@@ -1149,7 +1173,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 48
   },
   {
     "app_name": "Tusky",
@@ -1163,7 +1188,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 55
   },
   {
     "app_name": "Lawnchair",
@@ -1189,15 +1215,15 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "Headphone detector for Vanilla Music",
     "md5": "8c3aa02368dd4b95eb9aabdf852ae380",
-    "features": [
-      "Permissions"
-    ],
-    "mitigations": []
+    "features": ["Permissions"],
+    "mitigations": [],
+    "security_score": 55
   },
   {
     "app_name": "Home Assistant",
@@ -1225,7 +1251,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.21,
       "User Guidance": 0.13
-    }
+    },
+    "security_score": 50
   },
   {
     "app_name": "Simple Time Tracker",
@@ -1248,7 +1275,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 67
   },
   {
     "app_name": "Beat Feet",
@@ -1271,25 +1299,20 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "eSpeak",
     "md5": "9478e66be39152e805d4b7b73d4828c8",
-    "features": [
-      "Open With' Dialogue",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Open With' Dialogue", "File Storage"],
+    "mitigations": [],
+    "security_score": 57
   },
   {
     "app_name": "Simple Material Notes",
     "md5": "2a44ab99e1b18bc6379abd86d6f5bb04",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -1302,7 +1325,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "AudioAnchor",
@@ -1314,7 +1338,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 52
   },
   {
     "app_name": "Vinyl Music Player",
@@ -1339,7 +1364,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 56
   },
   {
     "app_name": "Dark theme",
@@ -1350,7 +1376,8 @@
       "Third Party Libraries",
       "File Storage"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 60
   },
   {
     "app_name": "ownCloud",
@@ -1363,7 +1390,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 49
   },
   {
     "app_name": "Orgzly",
@@ -1388,7 +1416,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 55
   },
   {
     "app_name": "Notally",
@@ -1411,7 +1440,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "Insular",
@@ -1435,7 +1465,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.17,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "Syncthing",
@@ -1460,7 +1491,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 58
   },
   {
     "app_name": "Noto",
@@ -1472,17 +1504,15 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 55
   },
   {
     "app_name": "Note Crypt Pro",
     "md5": "117035e2a9cba83d8ab772be200b7280",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
+    "mitigations": [],
+    "security_score": 46
   },
   {
     "app_name": "Escapepod",
@@ -1508,7 +1538,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 47
   },
   {
     "app_name": "Kore",
@@ -1533,7 +1564,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "RadarWeather",
@@ -1545,7 +1577,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 70
   },
   {
     "app_name": "omWeather",
@@ -1569,7 +1602,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Audio Spectrum Analyzer",
@@ -1594,17 +1628,15 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "hEARtest",
     "md5": "e81d130700ae476e1ec048b5770b6432",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "Wikipedia",
@@ -1630,7 +1662,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "VLC",
@@ -1656,17 +1689,15 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 32
   },
   {
     "app_name": "Tux Paint",
     "md5": "a17aa5593e00e11aee864895ded0c6c2",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
+    "mitigations": [],
+    "security_score": 67
   },
   {
     "app_name": "Tasks",
@@ -1692,7 +1723,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 50
   },
   {
     "app_name": "OpenKeychain",
@@ -1705,7 +1737,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 57
   },
   {
     "app_name": "andOTP",
@@ -1717,7 +1750,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 54
   },
   {
     "app_name": "Sensorkraken",
@@ -1744,7 +1778,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "Notes",
@@ -1768,7 +1803,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 55
   },
   {
     "app_name": "DroidFish",
@@ -1792,7 +1828,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "Auxio",
@@ -1817,7 +1854,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "OONI Probe",
@@ -1842,7 +1880,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 67
   },
   {
     "app_name": "Open Sudoku",
@@ -1864,16 +1903,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "Krita",
     "md5": "6d91b0a06bd7675c8880f776bd930ba9",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -1886,7 +1922,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 70
   },
   {
     "app_name": "DNS66",
@@ -1898,7 +1935,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "Chord Reader 2",
@@ -1909,7 +1947,8 @@
       "File Storage",
       "Third Party Libraries"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 60
   },
   {
     "app_name": "The Translator",
@@ -1932,7 +1971,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "BusyBox Installer",
@@ -1943,7 +1983,8 @@
       "Permissions",
       "File Storage"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 78
   },
   {
     "app_name": "SMS Messenger",
@@ -1969,7 +2010,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 54
   },
   {
     "app_name": "Notes",
@@ -2016,7 +2058,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 55
   },
   {
     "app_name": "BlackHole",
@@ -2041,7 +2084,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 47
   },
   {
     "app_name": "Super Retro Mega Wars",
@@ -2052,7 +2096,8 @@
       "File Storage",
       "Network Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "EteSync",
@@ -2064,7 +2109,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 49
   },
   {
     "app_name": "Feeel",
@@ -2087,7 +2133,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "PCAPdroid",
@@ -2112,7 +2159,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "DroidVim",
@@ -2125,7 +2173,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 52
   },
   {
     "app_name": "BatteryBot Pro",
@@ -2148,16 +2197,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 67
   },
   {
     "app_name": "TTS Util",
     "md5": "620d4ed43b8c22eb19d2014b115f0f7f",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -2170,7 +2216,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "DeadHash",
@@ -2181,15 +2228,13 @@
       "File Storage",
       "Third Party Libraries"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 64
   },
   {
     "app_name": "Simple Chess Clock",
     "md5": "4b684467bcf53d6fb6ef8e23376f150a",
-    "features": [
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -2202,16 +2247,15 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Chess Clock",
     "md5": "3ec567298cd3965c0702adfbacf16b23",
-    "features": [
-      "Open With' Dialogue",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Open With' Dialogue", "File Storage"],
+    "mitigations": [],
+    "security_score": 54
   },
   {
     "app_name": "Hexpress",
@@ -2222,15 +2266,15 @@
       "Open With' Dialogue",
       "File Storage"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 45
   },
   {
     "app_name": "Mavinote",
     "md5": "669b181ed97c6d0d33c7a5b07755c3bd",
-    "features": [
-      "Permissions"
-    ],
-    "mitigations": []
+    "features": ["Permissions"],
+    "mitigations": [],
+    "security_score": 64
   },
   {
     "app_name": "Just Player",
@@ -2254,7 +2298,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 46
   },
   {
     "app_name": "Scarlet FDroid",
@@ -2265,7 +2310,8 @@
       "File Storage",
       "Notifications"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "Termux",
@@ -2289,7 +2335,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 56
   },
   {
     "app_name": "Scoop",
@@ -2313,7 +2360,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "SuperTuxKart",
@@ -2336,16 +2384,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "SuperFreezZ",
     "md5": "afd966327e25ff47ee2df75cea1d0059",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -2358,7 +2403,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "Stealth",
@@ -2383,7 +2429,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "Squircle CE",
@@ -2396,7 +2443,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "SpotiFlyer",
@@ -2410,7 +2458,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 52
   },
   {
     "app_name": "Sobriety",
@@ -2433,7 +2482,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "Smart AutoClicker",
@@ -2457,7 +2507,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "SkyTube Extra",
@@ -2469,7 +2520,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "Skyline",
@@ -2480,7 +2532,8 @@
       "Third Party Libraries",
       "File Storage"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 52
   },
   {
     "app_name": "SimplyTranslate Mobile",
@@ -2505,7 +2558,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "SimpleX",
@@ -2531,7 +2585,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 55
   },
   {
     "app_name": "Silence",
@@ -2543,17 +2598,15 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 60
   },
   {
     "app_name": "Sharik",
     "md5": "a19afe09acd8746b14644933854fb9da",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
+    "mitigations": [],
+    "security_score": 52
   },
   {
     "app_name": "ShareX",
@@ -2578,7 +2631,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "Puzzles",
@@ -2589,7 +2643,8 @@
       "Third Party Libraries",
       "File Storage"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 32
   },
   {
     "app_name": "Dolphin Emulator",
@@ -2613,7 +2668,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "LibreOffice Viewer",
@@ -2636,7 +2692,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "OpenTasks",
@@ -2647,7 +2704,8 @@
       "File Storage",
       "Notifications"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "DecSync CC",
@@ -2659,7 +2717,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 57
   },
   {
     "app_name": "Nova Video Player",
@@ -2685,7 +2744,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 50
   },
   {
     "app_name": "Pocket Paint",
@@ -2709,7 +2769,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Calyx VPN",
@@ -2721,16 +2782,13 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 60
   },
   {
     "app_name": "Gurgle",
     "md5": "888851d4c448a4e67ec46c8289f7a597",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -2743,16 +2801,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Editor",
     "md5": "f17aa273dbb79c6439c793dbb691b5ff",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -2765,7 +2820,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Syncopoli",
@@ -2776,7 +2832,8 @@
       "Notifications",
       "Network Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 57
   },
   {
     "app_name": "OpenTTD",
@@ -2800,7 +2857,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 42
   },
   {
     "app_name": "Openreads",
@@ -2813,7 +2871,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 64
   },
   {
     "app_name": "Calculator",
@@ -2837,7 +2896,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "Olauncher",
@@ -2862,7 +2922,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 58
   },
   {
     "app_name": "Odysee",
@@ -2885,7 +2946,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 55
   },
   {
     "app_name": "ObscuraCam",
@@ -2896,7 +2958,8 @@
       "File Storage",
       "Network Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 62
   },
   {
     "app_name": "Nunti",
@@ -2920,7 +2983,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 59
   },
   {
     "app_name": "Noice",
@@ -2946,7 +3010,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.17,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 58
   },
   {
     "app_name": "NewPipe",
@@ -2971,7 +3036,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 59
   },
   {
     "app_name": "Clock",
@@ -3008,7 +3074,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 43
   },
   {
     "app_name": "NewsBlur",
@@ -3033,7 +3100,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "QKSMS",
@@ -3058,17 +3126,15 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "Little Music Player",
     "md5": "d54e0d7c71a97341c467bbc64d63be3c",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "Notifications"
-    ],
-    "mitigations": []
+    "features": ["Permissions", "Open With' Dialogue", "Notifications"],
+    "mitigations": [],
+    "security_score": 85
   },
   {
     "app_name": "1List",
@@ -3079,7 +3145,8 @@
       "Permissions",
       "File Storage"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 53
   },
   {
     "app_name": "KeePassDX",
@@ -3103,7 +3170,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 41
   },
   {
     "app_name": "Notification Notes",
@@ -3114,7 +3182,8 @@
       "File Storage",
       "Notifications"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 45
   },
   {
     "app_name": "CPU Info",
@@ -3138,17 +3207,15 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 67
   },
   {
     "app_name": "Vanilla Lyrics Search",
     "md5": "e11222f1e51db3f5c27f0cd20d6841e4",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "Network Access"
-    ],
-    "mitigations": []
+    "features": ["Permissions", "Open With' Dialogue", "Network Access"],
+    "mitigations": [],
+    "security_score": 53
   },
   {
     "app_name": "Cover Fetcher",
@@ -3159,7 +3226,8 @@
       "File Storage",
       "Network Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 52
   },
   {
     "app_name": "Tag Editor",
@@ -3170,7 +3238,8 @@
       "File Storage",
       "Network Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 52
   },
   {
     "app_name": "Red Moon",
@@ -3182,15 +3251,13 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 58
   },
   {
     "app_name": "Apple Flinger",
     "md5": "19901bd14616165b086fb980e3fcc7e6",
-    "features": [
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -3203,7 +3270,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 58
   },
   {
     "app_name": "SMS Import _ Export",
@@ -3220,10 +3288,7 @@
   {
     "app_name": "Endless Sky",
     "md5": "0aac1517c3dc3a45bdb5b2391037e17a",
-    "features": [
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -3236,7 +3301,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 54
   },
   {
     "app_name": "RHVoice",
@@ -3248,7 +3314,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 56
   },
   {
     "app_name": "DarkModeLiveWallpaper",
@@ -3259,7 +3326,8 @@
       "File Storage",
       "Permissions"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 52
   },
   {
     "app_name": "Syncthing-Fork",
@@ -3284,7 +3352,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 55
   },
   {
     "app_name": "MTG Familiar",
@@ -3296,7 +3365,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "Brainf",
@@ -3306,17 +3376,15 @@
       "File Storage",
       "Third Party Libraries"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 73
   },
   {
     "app_name": "Acode",
     "md5": "b2701f4e85106e7567004a78aa8d6385",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "Network Access"
-    ],
-    "mitigations": []
+    "features": ["Permissions", "Open With' Dialogue", "Network Access"],
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "Exif Thumbnail Adder",
@@ -3329,16 +3397,15 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 57
   },
   {
     "app_name": "D\u00e9kaDico",
     "md5": "51e4bb1f483d7fa7555823a583e26fda",
-    "features": [
-      "Open With' Dialogue",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Open With' Dialogue", "File Storage"],
+    "mitigations": [],
+    "security_score": 64
   },
   {
     "app_name": "Kotatsu",
@@ -3364,7 +3431,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 49
   },
   {
     "app_name": "Kontalk",
@@ -3380,7 +3448,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "Koler",
@@ -3405,7 +3474,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 58
   },
   {
     "app_name": "K-9 Mail",
@@ -3430,7 +3500,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 44
   },
   {
     "app_name": "Chess",
@@ -3454,16 +3525,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "Unexpected Keyboard",
     "md5": "2af7634d1dba773c8a64bc2eb744f4bb",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -3476,7 +3544,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "J2ME Loader",
@@ -3503,7 +3572,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 49
   },
   {
     "app_name": "ViMusic",
@@ -3527,7 +3597,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 65
   },
   {
     "app_name": "Omni Notes FOSS",
@@ -3541,7 +3612,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 53
   },
   {
     "app_name": "mpv",
@@ -3564,7 +3636,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "MJ PDF",
@@ -3588,7 +3661,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "LibreHealth Cost Of Care Explorer",
@@ -3599,7 +3673,8 @@
       "Permissions",
       "File Storage"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "LibreHealth Essential Care For Every Baby",
@@ -3610,7 +3685,8 @@
       "File Storage",
       "Notifications"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 57
   },
   {
     "app_name": "OCR",
@@ -3635,7 +3711,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 58
   },
   {
     "app_name": "Discreet Launcher",
@@ -3660,7 +3737,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 67
   },
   {
     "app_name": "Dialer",
@@ -3685,7 +3763,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 55
   },
   {
     "app_name": "Antimine",
@@ -3708,7 +3787,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "AuthPass",
@@ -3721,7 +3801,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "Freebloks",
@@ -3734,7 +3815,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "Voice",
@@ -3758,7 +3840,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 70
   },
   {
     "app_name": "Tuner",
@@ -3782,7 +3865,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Metronome",
@@ -3794,15 +3878,15 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 64
   },
   {
     "app_name": "Noten lernen",
     "md5": "089f53aa56e3981bdeaeab3d790c85af",
-    "features": [
-      "Permissions"
-    ],
-    "mitigations": []
+    "features": ["Permissions"],
+    "mitigations": [],
+    "security_score": 67
   },
   {
     "app_name": "Everyday Tasks",
@@ -3826,7 +3910,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 58
   },
   {
     "app_name": "OpenTracks",
@@ -3851,7 +3936,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "AntennaPod",
@@ -3875,7 +3961,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 42
   },
   {
     "app_name": "LibreTranslator",
@@ -3898,7 +3985,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 67
   },
   {
     "app_name": "De-Bloater",
@@ -3921,7 +4009,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "Forecastie",
@@ -3934,7 +4023,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "Converter NOW",
@@ -3945,7 +4035,8 @@
       "Third Party Libraries",
       "File Storage"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "Contacts",
@@ -3968,7 +4059,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 56
   },
   {
     "app_name": "InnerTune",
@@ -3993,7 +4085,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 56
   },
   {
     "app_name": "WireGuard",
@@ -4017,7 +4110,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "Telegram FOSS Beta",
@@ -4046,7 +4140,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.21,
       "User Guidance": 0.13
-    }
+    },
+    "security_score": 44
   },
   {
     "app_name": "Session",
@@ -4074,7 +4169,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.17,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "Transistor",
@@ -4100,7 +4196,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 44
   },
   {
     "app_name": "Emacs",
@@ -4125,7 +4222,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "NetGuard",
@@ -4149,7 +4247,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 48
   },
   {
     "app_name": "Easy Watermark",
@@ -4161,7 +4260,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 57
   },
   {
     "app_name": "KouChat",
@@ -4173,7 +4273,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 47
   },
   {
     "app_name": "Key Mapper",
@@ -4198,7 +4299,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 53
   },
   {
     "app_name": "FreeDCam",
@@ -4224,7 +4326,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "Doodle",
@@ -4247,7 +4350,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Geoperion",
@@ -4270,16 +4374,15 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "Lexica",
     "md5": "5b1aec9899fd336bd7795adfc4c56bcc",
-    "features": [
-      "Open With' Dialogue",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Open With' Dialogue", "File Storage"],
+    "mitigations": [],
+    "security_score": 58
   },
   {
     "app_name": "Feeder",
@@ -4304,7 +4407,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "DeepL",
@@ -4328,7 +4432,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "Aegis",
@@ -4353,7 +4458,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 51
   },
   {
     "app_name": "Camera",
@@ -4368,7 +4474,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 55
   },
   {
     "app_name": "Minetest",
@@ -4391,7 +4498,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 67
   },
   {
     "app_name": "SuperImage",
@@ -4416,7 +4524,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 55
   },
   {
     "app_name": "Riseup VPN",
@@ -4428,16 +4537,13 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 60
   },
   {
     "app_name": "RetroArch (AArch64)",
     "md5": "11b3a7abf3a6b9d8e2dabd6075ac4f26",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -4450,7 +4556,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 46
   },
   {
     "app_name": "Rethink",
@@ -4475,7 +4582,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 58
   },
   {
     "app_name": "Lunar Launcher",
@@ -4498,7 +4606,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 52
   },
   {
     "app_name": "Quillpad",
@@ -4525,7 +4634,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 62
   },
   {
     "app_name": "Proton VPN",
@@ -4538,7 +4648,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "Privacy Indicators",
@@ -4561,7 +4672,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 38
   },
   {
     "app_name": "Pixel Wheels",
@@ -4584,7 +4696,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "phyphox",
@@ -4599,7 +4712,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 56
   },
   {
     "app_name": "Phonograph Plus",
@@ -4612,7 +4726,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "Dialog Music Player",
@@ -4635,17 +4750,15 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "PDF Viewer",
     "md5": "9c753266413cae797d3e062122f0d51b",
-    "features": [
-      "Location Services",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
-    "mitigations": []
+    "features": ["Location Services", "Open With' Dialogue", "File Storage"],
+    "mitigations": [],
+    "security_score": 67
   },
   {
     "app_name": "PDF Converter",
@@ -4657,7 +4770,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 56
   },
   {
     "app_name": "InviZible Pro",
@@ -4683,7 +4797,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 48
   },
   {
     "app_name": "Palette Cycling LWP",
@@ -4694,7 +4809,8 @@
       "Third Party Libraries",
       "File Storage"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 35
   },
   {
     "app_name": "P-SMS",
@@ -4719,7 +4835,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 54
   },
   {
     "app_name": "Spotube",
@@ -4744,7 +4861,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 49
   },
   {
     "app_name": "Organic Maps",
@@ -4770,7 +4888,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 47
   },
   {
     "app_name": "Shelter",
@@ -4782,16 +4901,13 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 58
   },
   {
     "app_name": "Mullvad VPN",
     "md5": "7eae9ff722fe74a5ded440f981596473",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Permissions", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -4804,7 +4920,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "IVPN",
@@ -4830,7 +4947,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "Markor",
@@ -4855,15 +4973,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 51
   },
   {
     "app_name": "GCompris",
     "md5": "c0b116bccf8a02f817ad43877f1e580d",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue"
-    ],
+    "features": ["Permissions", "Open With' Dialogue"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -4876,7 +4992,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 70
   },
   {
     "app_name": "Joplin",
@@ -4889,7 +5006,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 53
   },
   {
     "app_name": "Mill",
@@ -4912,7 +5030,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "MysteriumVPN",
@@ -4936,7 +5055,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Musify",
@@ -4949,7 +5069,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 58
   },
   {
     "app_name": "Musify",
@@ -5000,7 +5121,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 70
   },
   {
     "app_name": "Motion Eye",
@@ -5023,7 +5145,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 53
   },
   {
     "app_name": "Metro",
@@ -5048,7 +5171,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 51
   },
   {
     "app_name": "Meshenger",
@@ -5074,7 +5198,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "Official TWRP App",
@@ -5087,7 +5212,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 49
   },
   {
     "app_name": "Calendar",
@@ -5111,15 +5237,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 55
   },
   {
     "app_name": "Calculator",
     "md5": "aa8dbfacd2741efa9a0634c44123c79f",
-    "features": [
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -5156,7 +5280,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "Blokada 5",
@@ -5181,7 +5306,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 59
   },
   {
     "app_name": "blabber.im",
@@ -5208,7 +5334,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 47
   },
   {
     "app_name": "Bitwarden",
@@ -5232,7 +5359,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.17,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 48
   },
   {
     "app_name": "Kodi",
@@ -5257,7 +5385,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "OpenDocument Reader",
@@ -5270,7 +5399,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 58
   },
   {
     "app_name": "DAVx\u2075",
@@ -5295,7 +5425,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 49
   },
   {
     "app_name": "Translate",
@@ -5306,7 +5437,8 @@
       "File Storage",
       "Third Party Libraries"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 46
   },
   {
     "app_name": "Odeon",
@@ -5319,7 +5451,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 60
   },
   {
     "app_name": "ForgetMeNot",
@@ -5343,7 +5476,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 50
   },
   {
     "app_name": "FlorisBoard Beta",
@@ -5366,7 +5500,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 58
   },
   {
     "app_name": "Flashy",
@@ -5378,7 +5513,8 @@
       "Open With' Dialogue",
       "Camera Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 61
   },
   {
     "app_name": "Flashlight",
@@ -5401,7 +5537,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "Filester",
@@ -5426,7 +5563,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 70
   },
   {
     "app_name": "File Manager",
@@ -5449,7 +5587,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 56
   },
   {
     "app_name": "FFShare",
@@ -5473,16 +5612,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Feudal Tactics",
     "md5": "46944a1ad57b6689efc7b03d4b5bf98e",
-    "features": [
-      "Open With' Dialogue",
-      "File Storage",
-      "Network Access"
-    ],
+    "features": ["Open With' Dialogue", "File Storage", "Network Access"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -5495,7 +5631,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "Fermata Auto",
@@ -5522,7 +5659,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.17,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 49
   },
   {
     "app_name": "FairEmail",
@@ -5547,7 +5685,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 48
   },
   {
     "app_name": "Everest",
@@ -5569,16 +5708,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "CDLC Player",
     "md5": "0f58c8fcce4504d9e4219fd37ddde801",
-    "features": [
-      "Location Services",
-      "Open With' Dialogue",
-      "File Storage"
-    ],
+    "features": ["Location Services", "Open With' Dialogue", "File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -5591,7 +5727,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "Permission Pilot",
@@ -5604,7 +5741,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 58
   },
   {
     "app_name": "Emerald Launcher",
@@ -5627,7 +5765,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 47
   },
   {
     "app_name": "Easer",
@@ -5640,7 +5779,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "DuckDuckGo",
@@ -5666,7 +5806,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.13
-    }
+    },
+    "security_score": 49
   },
   {
     "app_name": "Draw",
@@ -5689,7 +5830,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "Download Navi",
@@ -5714,7 +5856,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 41
   },
   {
     "app_name": "yetCalc",
@@ -5737,7 +5880,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 61
   },
   {
     "app_name": "Zoysii",
@@ -5759,7 +5903,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Xeonjia",
@@ -5769,7 +5914,8 @@
       "File Storage",
       "Third Party Libraries"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 60
   },
   {
     "app_name": "Quinb",
@@ -5792,7 +5938,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 60
   },
   {
     "app_name": "Wire",
@@ -5819,7 +5966,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.17,
       "User Guidance": 0.13
-    }
+    },
+    "security_score": 56
   },
   {
     "app_name": "Weather",
@@ -5842,7 +5990,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 67
   },
   {
     "app_name": "Warpinator",
@@ -5867,7 +6016,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 58
   },
   {
     "app_name": "Voice Recorder",
@@ -5891,7 +6041,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 57
   },
   {
     "app_name": "Vigilante",
@@ -5916,14 +6067,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 65
   },
   {
     "app_name": "Extirpater",
     "md5": "37355944e8d449f3fcf239b89dfbfdb2",
-    "features": [
-      "File Storage"
-    ],
+    "features": ["File Storage"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -5936,7 +6086,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.0,
       "User Guidance": 0.0
-    }
+    },
+    "security_score": 64
   },
   {
     "app_name": "Unciv",
@@ -5960,15 +6111,13 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.12,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 51
   },
   {
     "app_name": "Monochromatic",
     "md5": "a1b2b12e512e64f685a641801c4b79bb",
-    "features": [
-      "Permissions",
-      "Open With' Dialogue"
-    ],
+    "features": ["Permissions", "Open With' Dialogue"],
     "mitigations": {
       "Application Developer Guidance": 0.0,
       "Attestation": 0.0,
@@ -5981,7 +6130,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.08,
       "User Guidance": 0.09
-    }
+    },
+    "security_score": 51
   },
   {
     "app_name": "Twire",
@@ -6005,7 +6155,8 @@
       "System Partition Integrity": 0.0,
       "Use Recent OS Version": 0.04,
       "User Guidance": 0.04
-    }
+    },
+    "security_score": 53
   },
   {
     "app_name": "Twidere",
@@ -6019,7 +6170,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 49
   },
   {
     "app_name": "Tsacdop",
@@ -6031,7 +6183,8 @@
       "File Storage",
       "Open With' Dialogue"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 51
   },
   {
     "app_name": "Treble Info",
@@ -6042,7 +6195,8 @@
       "Third Party Libraries",
       "File Storage"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 60
   },
   {
     "app_name": "Thud",
@@ -6053,14 +6207,14 @@
       "File Storage",
       "Network Access"
     ],
-    "mitigations": []
+    "mitigations": [],
+    "security_score": 52
   },
   {
     "app_name": "LTE Cleaner",
     "md5": "63a2eb3d37bc7fbd2f854b15ee9bed4e",
-    "features": [
-      "Permissions"
-    ],
-    "mitigations": []
+    "features": ["Permissions"],
+    "mitigations": [],
+    "security_score": 67
   }
 ]

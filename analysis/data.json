@@ -1,0 +1,240 @@
+[
+  {
+    "mitigation": "Security Updates",
+    "vulnerabilities": [
+      "Supply chain compromise",
+      "Drive-by compromise",
+      "Exploitation for privilege escalation"
+    ],
+    "features": [
+      "ads",
+      "permissions",
+      "thirdPartyLibraries",
+      "forumPosts_Comments"
+    ],
+    "priority": "medium",
+    "degree": 0.11864406779661017,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1001/",
+      "summary": "Install security updates in response to discovered vulnerabilities and ensure devices and resources used provide and have installed recent security updates.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
+  },
+  {
+    "mitigation": "Application Developer Guidance",
+    "vulnerabilities": [
+      "Supply chain compromise",
+      "Access / collect data via notifications",
+      "Abuse elevation control mechanism",
+      "Steal application access token",
+      "Screen capture"
+    ],
+    "features": [
+      "notifications",
+      "permissions",
+      "dataCollection",
+      "passwordRecovery",
+      "thirdPartyLibraries",
+      "openWithDialogue"
+    ],
+    "priority": "medium",
+    "degree": 0.3389830508474576,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1013/",
+      "summary": "Provide guidance or training to application developers.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
+  },
+  {
+    "mitigation": "Use Recent OS Versions",
+    "vulnerabilities": [
+      "Input capture e.g. keylogging",
+      "Adversary-in-the-middle",
+      "Video capture",
+      "Stored application data",
+      "Clipboard data",
+      "Steal application access token",
+      "File and directory discovery",
+      "Audio capture",
+      "Collection of protected user data"
+    ],
+    "features": [
+      "login",
+      "textInput",
+      "search",
+      "fileStorage",
+      "dataCollection",
+      "audioCapturePermissions",
+      "networkAccess",
+      "cameraAccess",
+      "openWithDialogue",
+      "paymentOptions"
+    ],
+    "priority": "high",
+    "degree": 1.0,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1006/",
+      "summary": "Use the recent mobile OS version as they often introduce:",
+      "dotpoints": [
+        "Patches against discovered vulnerabilities",
+        "Security architecture improvements to provide resilience against potential undiscovered vulnerabilities",
+        "Security architecture improvements against observed adversary techniques"
+      ],
+      "relatedMitigations": []
+    }
+  },
+  {
+    "mitigation": "Attestation",
+    "vulnerabilities": ["Exploitation for privilege escalation"],
+    "features": ["permissions"],
+    "priority": "low",
+    "degree": 0.0,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1002/",
+      "summary": "Enable remote attestation capabilities when available, and prohibit devices that fail the attestation from accessing enterprise resources.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
+  },
+  {
+    "mitigation": "Deploy Compromised Device Detection Method",
+    "vulnerabilities": ["Exploitation for privilege escalation"],
+    "features": ["permissions"],
+    "priority": "low",
+    "degree": 0.0,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1010/",
+      "summary": "Use a detection method that enables enterprises to identify compromised (e.g. rooted/jailbroken) devices. Various methods exist, including:",
+      "dotpoints": [
+        "Security mechanisms built directly into the device",
+        "Third-party mobile security applications",
+        "Enterprise mobility management (EMM)/mobile device management (MDM) capabilities",
+        "Other methods"
+      ],
+      "relatedMitigations": []
+    }
+  },
+  {
+    "mitigation": "Enterprise Policy",
+    "vulnerabilities": [
+      "Input injection",
+      "Access / collect data via notifications",
+      "Input capture e.g. keylogging",
+      "Screen capture"
+    ],
+    "features": [
+      "login",
+      "textInput",
+      "search",
+      "notifications",
+      "passwordRecovery",
+      "dataCollection",
+      "paymentOptions"
+    ],
+    "priority": "medium",
+    "degree": 0.5932203389830508,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1012/",
+      "summary": "Use an enterprise mobility management (EMM) or mobile device management (MDM) system to provision policies to mobile devices to control aspects of their allowed behaviour.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
+  },
+  {
+    "mitigation": "User Guidance",
+    "vulnerabilities": [
+      "Input injection",
+      "Access / collect data via notifications",
+      "Input capture e.g. keylogging",
+      "Steal application access token",
+      "Audio capture",
+      "Call control",
+      "Collection of protected user data",
+      "Screen capture"
+    ],
+    "features": [
+      "login",
+      "textInput",
+      "search",
+      "notifications",
+      "passwordRecovery",
+      "openWithDialogue",
+      "permissions",
+      "audioCapturePermissions",
+      "phoneCallPermissions",
+      "dataCollection",
+      "paymentOptions"
+    ],
+    "priority": "high",
+    "degree": 0.7966101694915253,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1011/",
+      "summary": "Provide guidance or training to users to:",
+      "dotpoints": [
+        "Set particular configuration settings",
+        "Avoid specifically potentially risky behaviours"
+      ],
+      "relatedMitigations": []
+    }
+  },
+  {
+    "mitigation": "Encrypt Network Traffic",
+    "vulnerabilities": ["Adversary-in-the-middle"],
+    "features": ["networkAccess", "dataCollection"],
+    "priority": "low",
+    "degree": 0.06779661016949151,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1009/",
+      "summary": "Application developers should encrypt all of their application network traffic to ensure protection of sensitive data and deter network-based attacks.",
+      "dotpoints": [],
+      "relatedMitigations": [
+        "Use the Transport Layer Security (TLS) protocol",
+        "Use HTTPS",
+        "Use Android's Network Security Configuration feature (or iOS's App Transport Security feature)",
+        "Message-based encryption of data",
+        "Use Virtual Private Network (VPN) tunnels e.g. using the IPsec protocol"
+      ]
+    }
+  },
+  {
+    "mitigation": "Interconnection Filtering",
+    "vulnerabilities": ["Location tracking"],
+    "features": ["locationServices"],
+    "priority": "low",
+    "degree": 0.033898305084745756,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1014/",
+      "summary": "Filter interconnections between network operators to block inappropriate requests, as described by the Communications, Security, Reliability, and Interoperability Council (CSRIC). This mitigates Signaling System 7 (SS7) exploitation.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
+  },
+  {
+    "mitigation": "Lock Bootloader",
+    "vulnerabilities": [],
+    "features": ["generalDeviceSecurity"],
+    "priority": "low",
+    "degree": 0.0,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1003/",
+      "summary": "Performs periodic checks to ensure that the bootloader is locked for devices that provide the capability to unlock the bootloader.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
+  },
+  {
+    "mitigation": "System Partition Integrity",
+    "vulnerabilities": [],
+    "features": ["generalDeviceSecurity"],
+    "priority": "low",
+    "degree": 0.0,
+    "details": {
+      "link": "https://attack.mitre.org/mitigations/M1004/",
+      "summary": "Ensures that Android devices being used include and enable the Verified Boot capability, which cryptographically ensures the integrity of the system partition.",
+      "dotpoints": [],
+      "relatedMitigations": []
+    }
+  }
+]
