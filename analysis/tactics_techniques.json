@@ -1,0 +1,382 @@
+[
+  {
+    "tactic": "Initial Access",
+    "techniques": [
+      {
+        "id": "T1456",
+        "name": "Drive-By Compromise"
+      },
+      {
+        "id": "T1461",
+        "name": "Lockscreen Bypass"
+      },
+      {
+        "id": "T1458",
+        "name": "Replication Through Removable Media"
+      },
+      {
+        "id": "T1474",
+        "name": "Supply Chain Compromise"
+      }
+    ]
+  },
+  {
+    "tactic": "Execution",
+    "techniques": [
+      {
+        "id": "T1623",
+        "name": "Command and Scripting Interpreter"
+      },
+      {
+        "id": "T1575",
+        "name": "Native API"
+      },
+      {
+        "id": "T1603",
+        "name": "Scheduled Task/Job"
+      }
+    ]
+  },
+  {
+    "tactic": "Persistence",
+    "techniques": [
+      {
+        "id": "T1398",
+        "name": "Boot or Logon Initialization Scripts"
+      },
+      {
+        "id": "T1577",
+        "name": "Compromise Application Executable"
+      },
+      {
+        "id": "T1645",
+        "name": "Compromise Client Software Binary"
+      },
+      {
+        "id": "T1624",
+        "name": "Event Triggered Execution"
+      },
+      {
+        "id": "T1541",
+        "name": "Foreground Persistence"
+      },
+      {
+        "id": "T1625",
+        "name": "Hijack Execution Flow"
+      },
+      {
+        "id": "T1603",
+        "name": "Scheduled Task/Job"
+      }
+    ]
+  },
+  {
+    "tactic": "Privilege Escalation",
+    "techniques": [
+      {
+        "id": "T1626",
+        "name": "Abuse Elevation Control Mechanism"
+      },
+      {
+        "id": "T1404",
+        "name": "Exploitation for Privilege Escalation"
+      },
+      {
+        "id": "T1631",
+        "name": "Process Injection"
+      }
+    ]
+  },
+  {
+    "tactic": "Defense Evasion",
+    "techniques": [
+      {
+        "id": "T1407",
+        "name": "Download New Code at Runtime"
+      },
+      {
+        "id": "T1627",
+        "name": "Execution Guardrails"
+      },
+      {
+        "id": "T1541",
+        "name": "Foreground Persistence"
+      },
+      {
+        "id": "T1628",
+        "name": "Hide Artifacts"
+      },
+      {
+        "id": "T1617",
+        "name": "Hooking"
+      },
+      {
+        "id": "T1629",
+        "name": "Impair Defenses"
+      },
+      {
+        "id": "T1630",
+        "name": "Indicator Removal on Host"
+      },
+      {
+        "id": "T1516",
+        "name": "Input Injection"
+      },
+      {
+        "id": "T1575",
+        "name": "Native API"
+      },
+      {
+        "id": "T1406",
+        "name": "Obfuscated Files or Information"
+      },
+      {
+        "id": "T1631",
+        "name": "Process Injection"
+      },
+      {
+        "id": "T1604",
+        "name": "Proxy Through Victim"
+      },
+      {
+        "id": "T1632",
+        "name": "Subvert Trust Controls"
+      },
+      {
+        "id": "T1633",
+        "name": "Virtualization/Sandbox Evasion"
+      }
+    ]
+  },
+  {
+    "tactic": "Credential Access",
+    "techniques": [
+      {
+        "id": "T1517",
+        "name": "Access Notifications"
+      },
+      {
+        "id": "T1414",
+        "name": "Clipboard Data"
+      },
+      {
+        "id": "T1634",
+        "name": "Credentials from Password Store"
+      },
+      {
+        "id": "T1417",
+        "name": "Input Capture"
+      },
+      {
+        "id": "T1635",
+        "name": "Steal Application Access Token"
+      }
+    ]
+  },
+  {
+    "tactic": "Discovery",
+    "techniques": [
+      {
+        "id": "T1420",
+        "name": "File and Directory Discovery"
+      },
+      {
+        "id": "T1430",
+        "name": "Location Tracking"
+      },
+      {
+        "id": "T1423",
+        "name": "Network Service Scanning"
+      },
+      {
+        "id": "T1424",
+        "name": "Process Discovery"
+      },
+      {
+        "id": "T1418",
+        "name": "Software Discovery"
+      },
+      {
+        "id": "T1426",
+        "name": "System Information Discovery"
+      },
+      {
+        "id": "T1422",
+        "name": "System Network Configuration Discovery"
+      },
+      {
+        "id": "T1421",
+        "name": "System Network Connections Discovery"
+      }
+    ]
+  },
+  {
+    "tactic": "Lateral Movement",
+    "techniques": [
+      {
+        "id": "T1428",
+        "name": "Exploitation of Remote Services"
+      },
+      {
+        "id": "T1458",
+        "name": "Replication Through Removable Media"
+      }
+    ]
+  },
+  {
+    "tactic": "Collection",
+    "techniques": [
+      {
+        "id": "T1517",
+        "name": "Access Notifications"
+      },
+      {
+        "id": "T1638",
+        "name": "Adversary-in-the-Middle"
+      },
+      {
+        "id": "T1532",
+        "name": "Archive Collected Data"
+      },
+      {
+        "id": "T1429",
+        "name": "Audio Capture"
+      },
+      {
+        "id": "T1616",
+        "name": "Call Control"
+      },
+      {
+        "id": "T1414",
+        "name": "Clipboard Data"
+      },
+      {
+        "id": "T1533",
+        "name": "Data from Local System"
+      },
+      {
+        "id": "T1417",
+        "name": "Input Capture"
+      },
+      {
+        "id": "T1430",
+        "name": "Location Tracking"
+      },
+      {
+        "id": "T1636",
+        "name": "Protected User Data"
+      },
+      {
+        "id": "T1513",
+        "name": "Screen Capture"
+      },
+      {
+        "id": "T1409",
+        "name": "Stored Application Data"
+      },
+      {
+        "id": "T1512",
+        "name": "Video Capture"
+      }
+    ]
+  },
+  {
+    "tactic": "Command and Control",
+    "techniques": [
+      {
+        "id": "T1437",
+        "name": "Application Layer Protocol"
+      },
+      {
+        "id": "T1616",
+        "name": "Call Control"
+      },
+      {
+        "id": "T1637",
+        "name": "Dynamic Resolution"
+      },
+      {
+        "id": "T1521",
+        "name": "Encrypted Channel"
+      },
+      {
+        "id": "T1544",
+        "name": "Ingress Tool Transfer"
+      },
+      {
+        "id": "T1509",
+        "name": "Non-Standard Port"
+      },
+      {
+        "id": "T1644",
+        "name": "Out of Band Data"
+      },
+      {
+        "id": "T1481",
+        "name": "Web Service"
+      }
+    ]
+  },
+  {
+    "tactic": "Exfiltration",
+    "techniques": [
+      {
+        "id": "T1639",
+        "name": "Exfiltration Over Alternative Protocol"
+      },
+      {
+        "id": "T1646",
+        "name": "Exfiltration Over C2 Channel"
+      }
+    ]
+  },
+  {
+    "tactic": "Impact",
+    "techniques": [
+      {
+        "id": "T1640",
+        "name": "Account Access Removal"
+      },
+      {
+        "id": "T1616",
+        "name": "Call Control"
+      },
+      {
+        "id": "T1471",
+        "name": "Data Encrypted for Impact"
+      },
+      {
+        "id": "T1641",
+        "name": "Data Manipulation"
+      },
+      {
+        "id": "T1642",
+        "name": "Endpoint Denial of Service"
+      },
+      {
+        "id": "T1643",
+        "name": "Generate Traffic from Victim"
+      },
+      {
+        "id": "T1516",
+        "name": "Input Injection"
+      },
+      {
+        "id": "T1464",
+        "name": "Network Denial of Service"
+      },
+      {
+        "id": "T1582",
+        "name": "SMS Control"
+      }
+    ]
+  },
+  {
+    "tactic": "Network Effects",
+    "techniques": []
+  },
+  {
+    "tactic": "Remote Service Effects",
+    "techniques": []
+  }
+]

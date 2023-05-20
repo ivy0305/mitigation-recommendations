@@ -1,0 +1,3948 @@
+[
+    {
+        "software_id": "S1061",
+        "software_name": "AbstractEmu",
+        "techniques": [
+            {
+                "technique_id": "T1626",
+                "technique_name": "Abuse Elevation Control Mechanism: Device Administrator Permissions"
+            },
+            {
+                "technique_id": "T1517",
+                "technique_name": "Access Notifications"
+            },
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1623",
+                "technique_name": "Command and Scripting Interpreter: Unix Shell"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Disable or Modify Tools"
+            },
+            {
+                "technique_id": "T1544",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion"
+            }
+        ]
+    },
+    {
+        "software_id": "S0309",
+        "software_name": "Adups",
+        "techniques": [
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1474",
+                "technique_name": "Supply Chain Compromise: Compromise Software Supply Chain"
+            }
+        ]
+    },
+    {
+        "software_id": "S0440",
+        "software_name": "Agent Smith",
+        "techniques": [
+            {
+                "technique_id": "T1577",
+                "technique_name": "Compromise Application Executable"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information: Steganography"
+            },
+            {
+                "technique_id": "T1424",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0319",
+        "software_name": "Allwinner",
+        "techniques": [
+            {
+                "technique_id": "T1474",
+                "technique_name": "Supply Chain Compromise: Compromise Software Supply Chain"
+            }
+        ]
+    },
+    {
+        "software_id": "S0525",
+        "software_name": "Android/AdDisplay.Ashas",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            }
+        ]
+    },
+    {
+        "software_id": "S0304",
+        "software_name": "Android/Chuli.A",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0524",
+        "software_name": "AndroidOS/MalLocker.B",
+        "techniques": [
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Device Lockout"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            }
+        ]
+    },
+    {
+        "software_id": "S0310",
+        "software_name": "ANDROIDOS_ANSERVER.A",
+        "techniques": [
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1481",
+                "technique_name": "Web Service: Dead Drop Resolver"
+            }
+        ]
+    },
+    {
+        "software_id": "S0292",
+        "software_name": "AndroRAT",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            }
+        ]
+    },
+    {
+        "software_id": "S0422",
+        "software_name": "Anubis",
+        "techniques": [
+            {
+                "technique_id": "T1532",
+                "technique_name": "Archive Collected Data"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1616",
+                "technique_name": "Call Control"
+            },
+            {
+                "technique_id": "T1471",
+                "technique_name": "Data Encrypted for Impact"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Disable or Modify Tools"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: Keylogging"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1424",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            },
+            {
+                "technique_id": "T1481",
+                "technique_name": "Web Service: Dead Drop Resolver"
+            }
+        ]
+    },
+    {
+        "software_id": "S0540",
+        "software_name": "Asacub",
+        "techniques": [
+            {
+                "technique_id": "T1626",
+                "technique_name": "Abuse Elevation Control Mechanism: Device Administrator Permissions"
+            },
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1532",
+                "technique_name": "Archive Collected Data"
+            },
+            {
+                "technique_id": "T1575",
+                "technique_name": "Native API"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0293",
+        "software_name": "BrainTest",
+        "techniques": [
+            {
+                "technique_id": "T1645",
+                "technique_name": "Compromise Client Software Binary"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            }
+        ]
+    },
+    {
+        "software_id": "S0432",
+        "software_name": "Bread",
+        "techniques": [
+            {
+                "technique_id": "T1517",
+                "technique_name": "Access Notifications"
+            },
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            },
+            {
+                "technique_id": "T1575",
+                "technique_name": "Native API"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0655",
+        "software_name": "BusyGasper",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1616",
+                "technique_name": "Call Control"
+            },
+            {
+                "technique_id": "T1623",
+                "technique_name": "Command and Scripting Interpreter: Unix Shell"
+            },
+            {
+                "technique_id": "T1645",
+                "technique_name": "Compromise Client Software Binary"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1639",
+                "technique_name": "Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: Keylogging"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            },
+            {
+                "technique_id": "T1481",
+                "technique_name": "Web Service: Bidirectional Communication"
+            }
+        ]
+    },
+    {
+        "software_id": "S0529",
+        "software_name": "CarbonSteal",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1616",
+                "technique_name": "Call Control"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1521",
+                "technique_name": "Encrypted Channel: Asymmetric Cryptography"
+            },
+            {
+                "technique_id": "T1420",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1575",
+                "technique_name": "Native API"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0480",
+        "software_name": "Cerberus",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Disable or Modify Tools"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: Uninstall Malicious Application"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: Keylogging"
+            },
+            {
+                "technique_id": "T1516",
+                "technique_name": "Input Injection"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1509",
+                "technique_name": "Non-Standard Port"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            }
+        ]
+    },
+    {
+        "software_id": "S0323",
+        "software_name": "Charger",
+        "techniques": [
+            {
+                "technique_id": "T1642",
+                "technique_name": "Endpoint Denial of Service"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            }
+        ]
+    },
+    {
+        "software_id": "S0555",
+        "software_name": "CHEMISTGAMES",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1623",
+                "technique_name": "Command and Scripting Interpreter: Unix Shell"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1521",
+                "technique_name": "Encrypted Channel: Asymmetric Cryptography"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1575",
+                "technique_name": "Native API"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1474",
+                "technique_name": "Supply Chain Compromise: Compromise Software Supply Chain"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0602",
+        "software_name": "Circles",
+        "techniques": [
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking: Impersonate SS7 Nodes"
+            }
+        ]
+    },
+    {
+        "software_id": "S0426",
+        "software_name": "Concipit1248",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0425",
+        "software_name": "Corona Updates",
+        "techniques": [
+            {
+                "technique_id": "T1517",
+                "technique_name": "Access Notifications"
+            },
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1639",
+                "technique_name": "Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0479",
+        "software_name": "DEFENSOR ID",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1516",
+                "technique_name": "Input Injection"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0301",
+        "software_name": "Dendroid",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            }
+        ]
+    },
+    {
+        "software_id": "S0505",
+        "software_name": "Desert Scorpion",
+        "techniques": [
+            {
+                "technique_id": "T1532",
+                "technique_name": "Archive Collected Data"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1420",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1632",
+                "technique_name": "Subvert Trust Controls: Code Signing Policy Modification"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0550",
+        "software_name": "DoubleAgent",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1623",
+                "technique_name": "Command and Scripting Interpreter: Unix Shell"
+            },
+            {
+                "technique_id": "T1645",
+                "technique_name": "Compromise Client Software Binary"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1420",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0300",
+        "software_name": "DressCode",
+        "techniques": [
+            {
+                "technique_id": "T1428",
+                "technique_name": "Exploitation of Remote Services"
+            }
+        ]
+    },
+    {
+        "software_id": "S1054",
+        "software_name": "Drinik",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "technique_id": "T1616",
+                "technique_name": "Call Control"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1541",
+                "technique_name": "Foreground Persistence"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Disable or Modify Tools"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: Keylogging"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            }
+        ]
+    },
+    {
+        "software_id": "S0320",
+        "software_name": "DroidJack",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0315",
+        "software_name": "DualToy",
+        "techniques": [
+            {
+                "technique_id": "T1458",
+                "technique_name": "Replication Through Removable Media"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0420",
+        "software_name": "Dvmap",
+        "techniques": [
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1625",
+                "technique_name": "Hijack Execution Flow: System Runtime API Hijacking"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Disable or Modify Tools"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1632",
+                "technique_name": "Subvert Trust Controls: Code Signing Policy Modification"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0507",
+        "software_name": "eSurv",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1521",
+                "technique_name": "Encrypted Channel: Asymmetric Cryptography"
+            },
+            {
+                "technique_id": "T1627",
+                "technique_name": "Execution Guardrails: Geofencing"
+            },
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0478",
+        "software_name": "EventBot",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1521",
+                "technique_name": "Encrypted Channel: Symmetric Cryptography"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: Keylogging"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0522",
+        "software_name": "Exobot",
+        "techniques": [
+            {
+                "technique_id": "T1626",
+                "technique_name": "Abuse Elevation Control Mechanism: Device Administrator Permissions"
+            },
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1642",
+                "technique_name": "Endpoint Denial of Service"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: Keylogging"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1604",
+                "technique_name": "Proxy Through Victim"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery: Security Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0405",
+        "software_name": "Exodus",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1532",
+                "technique_name": "Archive Collected Data"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1509",
+                "technique_name": "Non-Standard Port"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Calendar Entries"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1421",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0509",
+        "software_name": "FakeSpy",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1421",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            }
+        ]
+    },
+    {
+        "software_id": "S0182",
+        "software_name": "FinFisher",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            }
+        ]
+    },
+    {
+        "software_id": "S0408",
+        "software_name": "FlexiSpy",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1625",
+                "technique_name": "Hijack Execution Flow: System Runtime API Hijacking"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: Keylogging"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1509",
+                "technique_name": "Non-Standard Port"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Calendar Entries"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1421",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S1067",
+        "software_name": "FluBot",
+        "techniques": [
+            {
+                "technique_id": "T1517",
+                "technique_name": "Access Notifications"
+            },
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1637",
+                "technique_name": "Dynamic Resolution: Domain Generation Algorithms"
+            },
+            {
+                "technique_id": "T1521",
+                "technique_name": "Encrypted Channel: Asymmetric Cryptography"
+            },
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: User Evasion"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Prevent Application Removal"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1604",
+                "technique_name": "Proxy Through Victim"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            }
+        ]
+    },
+    {
+        "software_id": "S0577",
+        "software_name": "FrozenCell",
+        "techniques": [
+            {
+                "technique_id": "T1532",
+                "technique_name": "Archive Collected Data"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1420",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0423",
+        "software_name": "Ginp",
+        "techniques": [
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1516",
+                "technique_name": "Input Injection"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            }
+        ]
+    },
+    {
+        "software_id": "S0535",
+        "software_name": "Golden Cup",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1532",
+                "technique_name": "Archive Collected Data"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1420",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0551",
+        "software_name": "GoldenEagle",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1420",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1632",
+                "technique_name": "Subvert Trust Controls: Code Signing Policy Modification"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0421",
+        "software_name": "GolfSpy",
+        "techniques": [
+            {
+                "technique_id": "T1532",
+                "technique_name": "Archive Collected Data"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1414",
+                "technique_name": "Clipboard Data"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1424",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0290",
+        "software_name": "Gooligan",
+        "techniques": [
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            }
+        ]
+    },
+    {
+        "software_id": "S0536",
+        "software_name": "GPlayed",
+        "techniques": [
+            {
+                "technique_id": "T1626",
+                "technique_name": "Abuse Elevation Control Mechanism: Device Administrator Permissions"
+            },
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1642",
+                "technique_name": "Endpoint Denial of Service"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1603",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0406",
+        "software_name": "Gustuff",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: Keylogging"
+            },
+            {
+                "technique_id": "T1516",
+                "technique_name": "Input Injection"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery: Security Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0544",
+        "software_name": "HenBox",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1623",
+                "technique_name": "Command and Scripting Interpreter: Unix Shell"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1575",
+                "technique_name": "Native API"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1424",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            }
+        ]
+    },
+    {
+        "software_id": "S0322",
+        "software_name": "HummingBad",
+        "techniques": [
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            }
+        ]
+    },
+    {
+        "software_id": "S0321",
+        "software_name": "HummingWhale",
+        "techniques": [
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            }
+        ]
+    },
+    {
+        "software_id": "S0463",
+        "software_name": "INSOMNIA",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1634",
+                "technique_name": "Credentials from Password Store: Keychain"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1456",
+                "technique_name": "Drive-By Compromise"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1509",
+                "technique_name": "Non-Standard Port"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1631",
+                "technique_name": "Process Injection: Ptrace System Calls"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0325",
+        "software_name": "Judy",
+        "techniques": [
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            }
+        ]
+    },
+    {
+        "software_id": "S0288",
+        "software_name": "KeyRaider",
+        "techniques": [
+            {
+                "technique_id": "T1638",
+                "technique_name": "Adversary-in-the-Middle"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0485",
+        "software_name": "Mandrake",
+        "techniques": [
+            {
+                "technique_id": "T1517",
+                "technique_name": "Access Notifications"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1637",
+                "technique_name": "Dynamic Resolution: Domain Generation Algorithms"
+            },
+            {
+                "technique_id": "T1541",
+                "technique_name": "Foreground Persistence"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Prevent Application Removal"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1544",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1516",
+                "technique_name": "Input Injection"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1509",
+                "technique_name": "Non-Standard Port"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1632",
+                "technique_name": "Subvert Trust Controls: Code Signing Policy Modification"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            },
+            {
+                "technique_id": "T1481",
+                "technique_name": "Web Service: Bidirectional Communication"
+            }
+        ]
+    },
+    {
+        "software_id": "S0317",
+        "software_name": "Marcher",
+        "techniques": [
+            {
+                "technique_id": "T1626",
+                "technique_name": "Abuse Elevation Control Mechanism: Device Administrator Permissions"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0303",
+        "software_name": "MazarBOT",
+        "techniques": [
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            }
+        ]
+    },
+    {
+        "software_id": "S0407",
+        "software_name": "Monokle",
+        "techniques": [
+            {
+                "technique_id": "T1640",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "technique_id": "T1638",
+                "technique_name": "Adversary-in-the-Middle"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1616",
+                "technique_name": "Call Control"
+            },
+            {
+                "technique_id": "T1645",
+                "technique_name": "Compromise Client Software Binary"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1617",
+                "technique_name": "Hooking"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1544",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: Keylogging"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Calendar Entries"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1421",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0299",
+        "software_name": "NotCompatible",
+        "techniques": [
+            {
+                "technique_id": "T1428",
+                "technique_name": "Exploitation of Remote Services"
+            }
+        ]
+    },
+    {
+        "software_id": "S0286",
+        "software_name": "OBAD",
+        "techniques": [
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Prevent Application Removal"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            }
+        ]
+    },
+    {
+        "software_id": "S0285",
+        "software_name": "OldBoot",
+        "techniques": [
+            {
+                "technique_id": "T1398",
+                "technique_name": "Boot or Logon Initialization Scripts"
+            }
+        ]
+    },
+    {
+        "software_id": "S0399",
+        "software_name": "Pallas",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1421",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0316",
+        "software_name": "Pegasus for Android",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1645",
+                "technique_name": "Compromise Client Software Binary"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Calendar Entries"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0289",
+        "software_name": "Pegasus for iOS",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1645",
+                "technique_name": "Compromise Client Software Binary"
+            },
+            {
+                "technique_id": "T1456",
+                "technique_name": "Drive-By Compromise"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1421",
+                "technique_name": "System Network Connections Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0291",
+        "software_name": "PJApps",
+        "techniques": [
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0295",
+        "software_name": "RCSAndroid",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1414",
+                "technique_name": "Clipboard Data"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0539",
+        "software_name": "Red Alert 2.0",
+        "techniques": [
+            {
+                "technique_id": "T1626",
+                "technique_name": "Abuse Elevation Control Mechanism: Device Administrator Permissions"
+            },
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1509",
+                "technique_name": "Non-Standard Port"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1481",
+                "technique_name": "Web Service: Dead Drop Resolver"
+            }
+        ]
+    },
+    {
+        "software_id": "S0326",
+        "software_name": "RedDrop",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            },
+            {
+                "technique_id": "T1544",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0403",
+        "software_name": "Riltok",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1516",
+                "technique_name": "Input Injection"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0411",
+        "software_name": "Rotexy",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1637",
+                "technique_name": "Dynamic Resolution: Domain Generation Algorithms"
+            },
+            {
+                "technique_id": "T1521",
+                "technique_name": "Encrypted Channel: Symmetric Cryptography"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Device Lockout"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1424",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            }
+        ]
+    },
+    {
+        "software_id": "S0313",
+        "software_name": "RuMMS",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S1062",
+        "software_name": "S.O.V.A.",
+        "techniques": [
+            {
+                "technique_id": "T1517",
+                "technique_name": "Access Notifications"
+            },
+            {
+                "technique_id": "T1638",
+                "technique_name": "Adversary-in-the-Middle"
+            },
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1471",
+                "technique_name": "Data Encrypted for Impact"
+            },
+            {
+                "technique_id": "T1641",
+                "technique_name": "Data Manipulation: Transmitted Data Manipulation"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Prevent Application Removal"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: Uninstall Malicious Application"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: Keylogging"
+            },
+            {
+                "technique_id": "T1516",
+                "technique_name": "Input Injection"
+            },
+            {
+                "technique_id": "T1464",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information: Software Packing"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S1055",
+        "software_name": "SharkBot",
+        "techniques": [
+            {
+                "technique_id": "T1517",
+                "technique_name": "Access Notifications"
+            },
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1637",
+                "technique_name": "Dynamic Resolution: Domain Generation Algorithms"
+            },
+            {
+                "technique_id": "T1521",
+                "technique_name": "Encrypted Channel: Symmetric Cryptography"
+            },
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: Uninstall Malicious Application"
+            },
+            {
+                "technique_id": "T1544",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: Keylogging"
+            },
+            {
+                "technique_id": "T1516",
+                "technique_name": "Input Injection"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1424",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            }
+        ]
+    },
+    {
+        "software_id": "S0294",
+        "software_name": "ShiftyBug",
+        "techniques": [
+            {
+                "technique_id": "T1645",
+                "technique_name": "Compromise Client Software Binary"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            }
+        ]
+    },
+    {
+        "software_id": "S0549",
+        "software_name": "SilkBean",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1521",
+                "technique_name": "Encrypted Channel: Asymmetric Cryptography"
+            },
+            {
+                "technique_id": "T1420",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1632",
+                "technique_name": "Subvert Trust Controls: Code Signing Policy Modification"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0419",
+        "software_name": "SimBad",
+        "techniques": [
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            }
+        ]
+    },
+    {
+        "software_id": "S0327",
+        "software_name": "Skygofree",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0324",
+        "software_name": "SpyDealer",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1645",
+                "technique_name": "Compromise Client Software Binary"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0305",
+        "software_name": "SpyNote RAT",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Contact List"
+            }
+        ]
+    },
+    {
+        "software_id": "S0328",
+        "software_name": "Stealth Mango",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1456",
+                "technique_name": "Drive-By Compromise"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Calendar Entries"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1474",
+                "technique_name": "Supply Chain Compromise: Compromise Software Supply Chain"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0329",
+        "software_name": "Tangelo",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S1069",
+        "software_name": "TangleBot",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1616",
+                "technique_name": "Call Control"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0545",
+        "software_name": "TERRACOTTA",
+        "techniques": [
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1541",
+                "technique_name": "Foreground Persistence"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1516",
+                "technique_name": "Input Injection"
+            },
+            {
+                "technique_id": "T1575",
+                "technique_name": "Native API"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1603",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            },
+            {
+                "technique_id": "T1481",
+                "technique_name": "Web Service: Bidirectional Communication"
+            }
+        ]
+    },
+    {
+        "software_id": "S1056",
+        "software_name": "TianySpy",
+        "techniques": [
+            {
+                "technique_id": "T1623",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "technique_id": "T1639",
+                "technique_name": "Exfiltration Over Alternative Protocol"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1632",
+                "technique_name": "Subvert Trust Controls: Code Signing Policy Modification"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0558",
+        "software_name": "Tiktok Pro",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1623",
+                "technique_name": "Command and Scripting Interpreter: Unix Shell"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1420",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "technique_id": "T1541",
+                "technique_name": "Foreground Persistence"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1603",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0424",
+        "software_name": "Triada",
+        "techniques": [
+            {
+                "technique_id": "T1532",
+                "technique_name": "Archive Collected Data"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            },
+            {
+                "technique_id": "T1631",
+                "technique_name": "Process Injection: Ptrace System Calls"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1474",
+                "technique_name": "Supply Chain Compromise: Compromise Software Supply Chain"
+            }
+        ]
+    },
+    {
+        "software_id": "S0427",
+        "software_name": "TrickMo",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1624",
+                "technique_name": "Event Triggered Execution: Broadcast Receivers"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Device Lockout"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: Uninstall Malicious Application"
+            },
+            {
+                "technique_id": "T1516",
+                "technique_name": "Input Injection"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1644",
+                "technique_name": "Out of Band Data"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            }
+        ]
+    },
+    {
+        "software_id": "S0307",
+        "software_name": "Trojan-SMS.AndroidOS.Agent.ao",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            }
+        ]
+    },
+    {
+        "software_id": "S0306",
+        "software_name": "Trojan-SMS.AndroidOS.FakeInst.a",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            }
+        ]
+    },
+    {
+        "software_id": "S0308",
+        "software_name": "Trojan-SMS.AndroidOS.OpFake.a",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            }
+        ]
+    },
+    {
+        "software_id": "S0302",
+        "software_name": "Twitoor",
+        "techniques": [
+            {
+                "technique_id": "T1521",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1481",
+                "technique_name": "Web Service: One-Way Communication"
+            }
+        ]
+    },
+    {
+        "software_id": "S0418",
+        "software_name": "ViceLeaker",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1544",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0506",
+        "software_name": "ViperRAT",
+        "techniques": [
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1421",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            }
+        ]
+    },
+    {
+        "software_id": "S0312",
+        "software_name": "WireLurker",
+        "techniques": [
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1458",
+                "technique_name": "Replication Through Removable Media"
+            }
+        ]
+    },
+    {
+        "software_id": "S0489",
+        "software_name": "WolfRAT",
+        "techniques": [
+            {
+                "technique_id": "T1517",
+                "technique_name": "Access Notifications"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1533",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1630",
+                "technique_name": "Indicator Removal on Host: File Deletion"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1424",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: Call Log"
+            },
+            {
+                "technique_id": "T1513",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "technique_id": "T1582",
+                "technique_name": "SMS Control"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1512",
+                "technique_name": "Video Capture"
+            },
+            {
+                "technique_id": "T1633",
+                "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+            }
+        ]
+    },
+    {
+        "software_id": "S0314",
+        "software_name": "X-Agent for Android",
+        "techniques": [
+            {
+                "technique_id": "T1430",
+                "technique_name": "Location Tracking"
+            }
+        ]
+    },
+    {
+        "software_id": "S0298",
+        "software_name": "Xbot",
+        "techniques": [
+            {
+                "technique_id": "T1471",
+                "technique_name": "Data Encrypted for Impact"
+            },
+            {
+                "technique_id": "T1642",
+                "technique_name": "Endpoint Denial of Service"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            }
+        ]
+    },
+    {
+        "software_id": "S0297",
+        "software_name": "XcodeGhost",
+        "techniques": [
+            {
+                "technique_id": "T1414",
+                "technique_name": "Clipboard Data"
+            },
+            {
+                "technique_id": "T1417",
+                "technique_name": "Input Capture: GUI Input Capture"
+            },
+            {
+                "technique_id": "T1474",
+                "technique_name": "Supply Chain Compromise: Compromise Software Dependencies and Development Tools"
+            }
+        ]
+    },
+    {
+        "software_id": "S0318",
+        "software_name": "XLoader for Android",
+        "techniques": [
+            {
+                "technique_id": "T1626",
+                "technique_name": "Abuse Elevation Control Mechanism: Device Administrator Permissions"
+            },
+            {
+                "technique_id": "T1429",
+                "technique_name": "Audio Capture"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1636",
+                "technique_name": "Protected User Data: SMS Messages"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "technique_id": "T1481",
+                "technique_name": "Web Service: Dead Drop Resolver"
+            }
+        ]
+    },
+    {
+        "software_id": "S0490",
+        "software_name": "XLoader for iOS",
+        "techniques": [
+            {
+                "technique_id": "T1646",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "technique_id": "T1632",
+                "technique_name": "Subvert Trust Controls: Code Signing Policy Modification"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0311",
+        "software_name": "YiSpecter",
+        "techniques": [
+            {
+                "technique_id": "T1437",
+                "technique_name": "Application Layer Protocol: Web Protocols"
+            },
+            {
+                "technique_id": "T1577",
+                "technique_name": "Compromise Application Executable"
+            },
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1456",
+                "technique_name": "Drive-By Compromise"
+            },
+            {
+                "technique_id": "T1628",
+                "technique_name": "Hide Artifacts: Suppress Application Icon"
+            },
+            {
+                "technique_id": "T1625",
+                "technique_name": "Hijack Execution Flow"
+            },
+            {
+                "technique_id": "T1424",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "technique_id": "T1418",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "technique_id": "T1409",
+                "technique_name": "Stored Application Data"
+            },
+            {
+                "technique_id": "T1632",
+                "technique_name": "Subvert Trust Controls: Code Signing Policy Modification"
+            },
+            {
+                "technique_id": "T1426",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "technique_id": "T1422",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    },
+    {
+        "software_id": "S0494",
+        "software_name": "Zen",
+        "techniques": [
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            },
+            {
+                "technique_id": "T1404",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "technique_id": "T1643",
+                "technique_name": "Generate Traffic from Victim"
+            },
+            {
+                "technique_id": "T1625",
+                "technique_name": "Hijack Execution Flow: System Runtime API Hijacking"
+            },
+            {
+                "technique_id": "T1629",
+                "technique_name": "Impair Defenses: Disable or Modify Tools"
+            },
+            {
+                "technique_id": "T1516",
+                "technique_name": "Input Injection"
+            },
+            {
+                "technique_id": "T1406",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "technique_id": "T1631",
+                "technique_name": "Process Injection: Ptrace System Calls"
+            }
+        ]
+    },
+    {
+        "software_id": "S0287",
+        "software_name": "ZergHelper",
+        "techniques": [
+            {
+                "technique_id": "T1407",
+                "technique_name": "Download New Code at Runtime"
+            }
+        ]
+    }
+]
