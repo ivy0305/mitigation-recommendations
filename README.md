@@ -1,4 +1,4 @@
-# Mitigation Recommendations: Mobile Applications
+# MITRE ATT&CK Mitigation Recommendations for Mobile Applications
 
 The app is currently deployed [here](https://ivy0305.github.io/mitigation-recommendations/).
 
@@ -56,7 +56,7 @@ Each mitigation is given in the following format:
     "mitigation": "Mitigation name",
     "vulnerabilities": ["Vuln 1", "Vuln 2"],
     "features": ["Feature 1", "Feature 2"],
-    "priority": "low",
+    "priority": "{low/medium/high}",
     "degree": {float value},
     "details": {
       "link": "https://attack.mitre.org/mitigations/{mitigation link here}/",
@@ -66,5 +66,3 @@ Each mitigation is given in the following format:
     }
   }
 ```
-
-The given priority is one of the following options: "low", "medium", or "high".
