@@ -1,0 +1,308 @@
+{
+  "data": {
+    "Zenbox": {
+      "tactics": [
+        {
+          "description": "The adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code. ",
+          "techniques": [
+            {
+              "description": "Adversaries may execute their own malicious payloads by side-loading DLLs. Similar to DLL Search Order Hijacking, side-loading involves hijacking which DLL a program loads. But rather than just planting the DLL within the search order of a program then waiting for the victim application to be invoked, adversaries may directly side-load their payloads by planting then invoking a legitimate application that executes their payload(s).\nSide-loading takes advantage of the DLL search order used by the loader by positioning both the victim application and malicious payload(s) alongside each other. Adversaries likely use side-loading as a means of masking actions they perform under a legitimate, trusted, and potentially elevated system or software process. Benign executables used to side-load payloads may not be flagged during delivery and/or execution. Adversary payloads may also be encrypted/packed or otherwise obfuscated until loaded into the memory of the trusted process.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Tries to load missing DLLs"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1574/002/",
+              "id": "T1574.002",
+              "name": "DLL Side-Loading"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0003/",
+          "id": "TA0003",
+          "name": "Persistence"
+        },
+        {
+          "description": "The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective. ",
+          "techniques": [
+            {
+              "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. Adversaries may use the information from System Information Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\nTools such as Systeminfo can be used to gather detailed system information. If running with privileged access, a breakdown of system data can be gathered through the systemsetup configuration tool on macOS. As an example, adversaries with user-level access can execute the df -aH command to obtain currently mounted disks and associated freely available space. Adversaries may also leverage a Network Device CLI on network devices to gather detailed system information (e.g. show version). System Information Discovery combined with information gathered from other forms of discovery and reconnaissance can drive payload development and concealment.\nInfrastructure as a Service (IaaS) cloud providers such as AWS, GCP, and Azure allow access to instance and virtual machine information via APIs. Successful authenticated API calls can return data such as the operating system platform and status of a particular instance or the model view of a virtual machine.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Reads software policies"
+                },
+                {
+                  "severity": "INFO",
+                  "description": "Queries the volume information (name, serial number etc) of a device"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1082/",
+              "id": "T1082",
+              "name": "System Information Discovery"
+            },
+            {
+              "description": "Adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. Adversaries may use the information from File and Directory Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\nMany command shell utilities can be used to obtain this information. Examples include dir, tree, ls, find, and locate. Custom tools may also be used to gather file and directory information and interact with the Native API. Adversaries may also leverage a Network Device CLI on network devices to gather file and directory information (e.g. dir, show flash, and/or nvram).",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Reads ini files"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1083/",
+              "id": "T1083",
+              "name": "File and Directory Discovery"
+            },
+            {
+              "description": "Adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. This may include things such as firewall rules and anti-virus. Adversaries may use the information from Security Software Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\nExample commands that can be used to obtain security software information are netsh, reg query with Reg, dir with cmd, and Tasklist, but other indicators of discovery behavior may be more specific to the type of software or security system the adversary is looking for. It is becoming more common to see macOS malware perform checks for LittleSnitch and KnockKnock software.\nAdversaries may also utilize cloud APIs to discover the configurations of firewall rules within an environment. For example, the permitted IP ranges, ports or user accounts for the inbound/outbound rules of security groups, virtual firewalls established within AWS for EC2 and/or VPC instances, can be revealed by the DescribeSecurityGroups action with various request parameters. ",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory)"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1518/001/",
+              "id": "T1518.001",
+              "name": "Security Software Discovery"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0007/",
+          "id": "TA0007",
+          "name": "Discovery"
+        },
+        {
+          "description": "The adversary is trying to communicate with compromised systems to control them.\n\nCommand and Control consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish command and control with various levels of stealth depending on the victim\u2019s network structure and defenses.",
+          "techniques": [
+            {
+              "description": "Adversaries may use a connection proxy to direct network traffic between systems or act as an intermediary for network communications to a command and control server to avoid direct connections to their infrastructure. Many tools exist that enable traffic redirection through proxies or port redirection, including HTRAN, ZXProxy, and ZXPortMap.  Adversaries use these types of proxies to manage command and control communications, reduce the number of simultaneous outbound network connections, provide resiliency in the face of connection loss, or to ride over existing trusted communications paths between victims to avoid suspicion. Adversaries may chain together multiple proxies to further disguise the source of malicious traffic.\nAdversaries can also take advantage of routing schemes in Content Delivery Networks (CDNs) to proxy command and control traffic.",
+              "signatures": [
+                {
+                  "severity": "LOW",
+                  "description": "Found Tor onion address"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1090/",
+              "id": "T1090",
+              "name": "Proxy"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0011/",
+          "id": "TA0011",
+          "name": "Command and Control"
+        },
+        {
+          "description": "The adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses. ",
+          "techniques": [
+            {
+              "description": "Adversaries may execute their own malicious payloads by side-loading DLLs. Similar to DLL Search Order Hijacking, side-loading involves hijacking which DLL a program loads. But rather than just planting the DLL within the search order of a program then waiting for the victim application to be invoked, adversaries may directly side-load their payloads by planting then invoking a legitimate application that executes their payload(s).\nSide-loading takes advantage of the DLL search order used by the loader by positioning both the victim application and malicious payload(s) alongside each other. Adversaries likely use side-loading as a means of masking actions they perform under a legitimate, trusted, and potentially elevated system or software process. Benign executables used to side-load payloads may not be flagged during delivery and/or execution. Adversary payloads may also be encrypted/packed or otherwise obfuscated until loaded into the memory of the trusted process.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Tries to load missing DLLs"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1574/002/",
+              "id": "T1574.002",
+              "name": "DLL Side-Loading"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0005/",
+          "id": "TA0005",
+          "name": "Defense Evasion"
+        },
+        {
+          "description": "The adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context.  ",
+          "techniques": [
+            {
+              "description": "Adversaries may execute their own malicious payloads by side-loading DLLs. Similar to DLL Search Order Hijacking, side-loading involves hijacking which DLL a program loads. But rather than just planting the DLL within the search order of a program then waiting for the victim application to be invoked, adversaries may directly side-load their payloads by planting then invoking a legitimate application that executes their payload(s).\nSide-loading takes advantage of the DLL search order used by the loader by positioning both the victim application and malicious payload(s) alongside each other. Adversaries likely use side-loading as a means of masking actions they perform under a legitimate, trusted, and potentially elevated system or software process. Benign executables used to side-load payloads may not be flagged during delivery and/or execution. Adversary payloads may also be encrypted/packed or otherwise obfuscated until loaded into the memory of the trusted process.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Tries to load missing DLLs"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1574/002/",
+              "id": "T1574.002",
+              "name": "DLL Side-Loading"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0004/",
+          "id": "TA0004",
+          "name": "Privilege Escalation"
+        }
+      ]
+    },
+    "Zenbox android": {
+      "tactics": [
+        {
+          "description": "The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques that allow the adversary to gain knowledge about the characteristics of the mobile device and potentially other networked systems. When adversaries gain access to a new system, they must orient themselves to what they now have control of and what benefits operating from that system give to their current objective or overall goals during the intrusion. The operating system may provide capabilities that aid in this post-compromise information-gathering phase.",
+          "techniques": [
+            {
+              "description": "Adversaries may track a device\u2019s physical location through use of standard operating system APIs via malicious or exploited applications on the compromised device. \nOn Android, applications holding the ACCESS_COAURSE_LOCATION or ACCESS_FINE_LOCATION permissions provide access to the device\u2019s physical location. On Android 10 and up, declaration of the ACCESS_BACKGROUND_LOCATION permission in an application\u2019s manifest will allow applications to request location access even when the application is running in the background. Some adversaries have utilized integration of Baidu map services to retrieve geographical location once the location access permissions had been obtained. \nOn iOS, applications must include the NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, and/or NSLocationAlwaysUsageDescription keys in their Info.plist file depending on the extent of requested access to location information. On iOS 8.0 and up, applications call requestWhenInUseAuthorization() to request access to location information when the application is in use or requestAlwaysAuthorization() to request access to location information regardless of whether the application is in use. With elevated privileges, an adversary may be able to access location data without explicit user consent with the com.apple.locationd.preauthorized entitlement key.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Queries the phones location (GPS)"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1430/",
+              "id": "T1430",
+              "name": "Location Tracking"
+            },
+            {
+              "description": "Adversaries may attempt to get detailed information about a device\u2019s operating system and hardware, including versions, patches, and architecture. Adversaries may use the information from System Information Discovery during automated discovery to shape follow-on behaviors, including whether or not to fully infects the target and/or attempts specific actions. \nOn Android, much of this information is programmatically accessible to applications through the android.os.Build class.  iOS is much more restrictive with what information is visible to applications. Typically, applications will only be able to query the device model and which version of iOS it is running. ",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Queries system settings"
+                },
+                {
+                  "severity": "INFO",
+                  "description": "Queries several sensitive phone informations"
+                },
+                {
+                  "severity": "INFO",
+                  "description": "Queries the unqiue device ID (IMEI, MEID or ESN)"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1426/",
+              "id": "T1426",
+              "name": "System Information Discovery"
+            },
+            {
+              "description": "Adversaries may attempt to get a listing of network connections to or from the compromised device they are currently accessing or from remote systems by querying for information over the network. \nThis is typically accomplished by utilizing device APIs to collect information about nearby networks, such as Wi-Fi, Bluetooth, and cellular tower connections. On Android, this can be done by querying the respective APIs: \n\n\nWifiInfo for information about the current Wi-Fi connection, as well as nearby Wi-Fi networks. Querying the WiFiInfo API requires the application to hold the ACCESS_FINE_LOCATION permission. \n\n\nBluetoothAdapter for information about Bluetooth devices, which also requires the application to hold several permissions granted by the user at runtime. \n\n\nFor Android versions prior to Q, applications can use the TelephonyManager.getNeighboringCellInfo() method. For Q and later, applications can use the TelephonyManager.getAllCellInfo() method. Both methods require the application hold the ACCESS_FINE_LOCATION permission.\n\n",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Checks an internet connection is available"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1421/",
+              "id": "T1421",
+              "name": "System Network Connections Discovery"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0032/",
+          "id": "TA0032",
+          "name": "Discovery"
+        },
+        {
+          "description": " The adversary is trying to avoid being detected.\n\nDefense evasion consists of techniques an adversary may use to evade detection or avoid other defenses. Sometimes these actions are the same as or variations of techniques in other categories that have the added benefit of subverting a particular defense or mitigation. Defense evasion may be considered a set of attributes the adversary applies to all other phases of the operation.",
+          "techniques": [
+            {
+              "description": "Adversaries may wipe a device or delete individual files in order to manipulate external outcomes or hide activity. An application must have administrator access to fully wipe the device, while individual files may not require special permissions to delete depending on their storage location. \nStored data could include a variety of file formats, such as Office files, databases, stored emails, and custom file formats. The impact file deletion will have depends on the type of data as well as the goals and objectives of the adversary, but can include deleting update files to evade detection or deleting attacker-specified files for impact.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Lists and deletes files in the same context"
+                },
+                {
+                  "severity": "LOW",
+                  "description": "Deletes other packages"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1447/",
+              "id": "T1447",
+              "name": "Delete Device Data"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0030/",
+          "id": "TA0030",
+          "name": "Defense Evasion"
+        },
+        {
+          "description": "The adversary is trying to steal account names, passwords, or other secrets that enable access to resources.\n\nCredential access represents techniques that can be used by adversaries to obtain access to or control over passwords, tokens, cryptographic keys, or other values that could be used by an adversary to gain unauthorized access to resources. Credential access allows the adversary to assume the identity of an account, with all of that account's permissions on the system and network, and makes it harder for defenders to detect the adversary. With sufficient access within a network, an adversary can create accounts for later use within the environment.",
+          "techniques": [
+            {
+              "description": "On versions of Android prior to 4.1, an adversary may use a malicious application that holds the READ_LOGS permission to obtain private keys, passwords, other credentials, or other sensitive data stored in the device's system log. On Android 4.1 and later, an adversary would need to attempt to perform an operating system privilege escalation attack to be able to access the log.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Has permission to read low-level log files (spy personal data)"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1413/",
+              "id": "T1413",
+              "name": "Access Sensitive Data in Device Logs"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0031/",
+          "id": "TA0031",
+          "name": "Credential Access"
+        },
+        {
+          "description": "The adversary is trying to manipulate, interrupt, or destroy your devices and data.\n\nThe impact tactic consists of techniques used by the adversary to execute his or her mission objectives but that do not cleanly fit into another category such as Collection. Mission objectives vary based on each adversary's goals, but examples include toll fraud, destruction of device data, or locking the user out of his or her device until a ransom is paid.",
+          "techniques": [
+            {
+              "description": "Adversaries may wipe a device or delete individual files in order to manipulate external outcomes or hide activity. An application must have administrator access to fully wipe the device, while individual files may not require special permissions to delete depending on their storage location. \nStored data could include a variety of file formats, such as Office files, databases, stored emails, and custom file formats. The impact file deletion will have depends on the type of data as well as the goals and objectives of the adversary, but can include deleting update files to evade detection or deleting attacker-specified files for impact.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Lists and deletes files in the same context"
+                },
+                {
+                  "severity": "LOW",
+                  "description": "Deletes other packages"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1447/",
+              "id": "T1447",
+              "name": "Delete Device Data"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0034/",
+          "id": "TA0034",
+          "name": "Impact"
+        },
+        {
+          "description": "The adversary is trying to gather data of interest to their goal.\n\nCollection consists of techniques used to identify and gather information, such as sensitive files, from a target network prior to exfiltration. This category also covers locations on a system or network where the adversary may look for information to exfiltrate.",
+          "techniques": [
+            {
+              "description": "Adversaries may use device sensors to collect information about nearby networks, such as Wi-Fi and Bluetooth.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Checks an internet connection is available"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1507/",
+              "id": "T1507",
+              "name": "Network Information Discovery"
+            },
+            {
+              "description": "Adversaries may track a device\u2019s physical location through use of standard operating system APIs via malicious or exploited applications on the compromised device. \nOn Android, applications holding the ACCESS_COAURSE_LOCATION or ACCESS_FINE_LOCATION permissions provide access to the device\u2019s physical location. On Android 10 and up, declaration of the ACCESS_BACKGROUND_LOCATION permission in an application\u2019s manifest will allow applications to request location access even when the application is running in the background. Some adversaries have utilized integration of Baidu map services to retrieve geographical location once the location access permissions had been obtained. \nOn iOS, applications must include the NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, and/or NSLocationAlwaysUsageDescription keys in their Info.plist file depending on the extent of requested access to location information. On iOS 8.0 and up, applications call requestWhenInUseAuthorization() to request access to location information when the application is in use or requestAlwaysAuthorization() to request access to location information regardless of whether the application is in use. With elevated privileges, an adversary may be able to access location data without explicit user consent with the com.apple.locationd.preauthorized entitlement key.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Queries the phones location (GPS)"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1430/",
+              "id": "T1430",
+              "name": "Location Tracking"
+            },
+            {
+              "description": "On versions of Android prior to 4.1, an adversary may use a malicious application that holds the READ_LOGS permission to obtain private keys, passwords, other credentials, or other sensitive data stored in the device's system log. On Android 4.1 and later, an adversary would need to attempt to perform an operating system privilege escalation attack to be able to access the log.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Has permission to read low-level log files (spy personal data)"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1413/",
+              "id": "T1413",
+              "name": "Access Sensitive Data in Device Logs"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0035/",
+          "id": "TA0035",
+          "name": "Collection"
+        }
+      ]
+    }
+  },
+  "links": {
+    "self": "https://www.virustotal.com/api/v3/files/7b7a005efcf125d607fe22dc780dad17/behaviour_mitre_trees"
+  },
+  "md5": "7b7a005efcf125d607fe22dc780dad17"
+}

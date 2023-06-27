@@ -1,0 +1,220 @@
+{
+  "data": {
+    "Zenbox": {
+      "tactics": [
+        {
+          "description": "The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective. ",
+          "techniques": [
+            {
+              "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. Adversaries may use the information from System Information Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\nTools such as Systeminfo can be used to gather detailed system information. If running with privileged access, a breakdown of system data can be gathered through the systemsetup configuration tool on macOS. As an example, adversaries with user-level access can execute the df -aH command to obtain currently mounted disks and associated freely available space. Adversaries may also leverage a Network Device CLI on network devices to gather detailed system information (e.g. show version). System Information Discovery combined with information gathered from other forms of discovery and reconnaissance can drive payload development and concealment.\nInfrastructure as a Service (IaaS) cloud providers such as AWS, GCP, and Azure allow access to instance and virtual machine information via APIs. Successful authenticated API calls can return data such as the operating system platform and status of a particular instance or the model view of a virtual machine.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Queries the volume information (name, serial number etc) of a device"
+                },
+                {
+                  "severity": "INFO",
+                  "description": "Reads software policies"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1082/",
+              "id": "T1082",
+              "name": "System Information Discovery"
+            },
+            {
+              "description": "Adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. Adversaries may use the information from File and Directory Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\nMany command shell utilities can be used to obtain this information. Examples include dir, tree, ls, find, and locate. Custom tools may also be used to gather file and directory information and interact with the Native API. Adversaries may also leverage a Network Device CLI on network devices to gather file and directory information (e.g. dir, show flash, and/or nvram).",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Reads ini files"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1083/",
+              "id": "T1083",
+              "name": "File and Directory Discovery"
+            },
+            {
+              "description": "Adversaries may employ various means to detect and avoid virtualization and analysis environments. This may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (VME) or sandbox. If the adversary detects a VME, they may alter their malware to disengage from the victim or conceal the core functions of the implant. They may also search for VME artifacts before dropping secondary or additional payloads. Adversaries may use the information learned from Virtualization/Sandbox Evasion during automated discovery to shape follow-on behaviors.\nAdversaries may use several methods to accomplish Virtualization/Sandbox Evasion such as checking for security monitoring tools (e.g., Sysinternals, Wireshark, etc.) or other system artifacts associated with analysis or virtualization. Adversaries may also check for legitimate user activity to help determine if it is in an analysis environment. Additional methods include use of sleep timers or loops within malware code to avoid operating within a temporary sandbox.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "May sleep (evasive loops) to hinder dynamic analysis"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1497/",
+              "id": "T1497",
+              "name": "Virtualization/Sandbox Evasion"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0007/",
+          "id": "TA0007",
+          "name": "Discovery"
+        },
+        {
+          "description": "The adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses. ",
+          "techniques": [
+            {
+              "description": "Adversaries may employ various means to detect and avoid virtualization and analysis environments. This may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (VME) or sandbox. If the adversary detects a VME, they may alter their malware to disengage from the victim or conceal the core functions of the implant. They may also search for VME artifacts before dropping secondary or additional payloads. Adversaries may use the information learned from Virtualization/Sandbox Evasion during automated discovery to shape follow-on behaviors.\nAdversaries may use several methods to accomplish Virtualization/Sandbox Evasion such as checking for security monitoring tools (e.g., Sysinternals, Wireshark, etc.) or other system artifacts associated with analysis or virtualization. Adversaries may also check for legitimate user activity to help determine if it is in an analysis environment. Additional methods include use of sleep timers or loops within malware code to avoid operating within a temporary sandbox.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "May sleep (evasive loops) to hinder dynamic analysis"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1497/",
+              "id": "T1497",
+              "name": "Virtualization/Sandbox Evasion"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0005/",
+          "id": "TA0005",
+          "name": "Defense Evasion"
+        }
+      ]
+    },
+    "Zenbox Linux": {
+      "tactics": [
+        {
+          "description": "The adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code. ",
+          "techniques": [
+            {
+              "description": "Adversaries may create or modify systemd services to repeatedly execute malicious payloads as part of persistence. Systemd is a system and service manager commonly used for managing background daemon processes (also known as services) and other system resources. Systemd is the default initialization (init) system on many Linux distributions replacing legacy init systems, including SysVinit and Upstart, while remaining backwards compatible.  \nSystemd utilizes unit configuration files with the .service file extension to encode information about a service's process. By default, system level unit files are stored in the /systemd/system directory of the root owned directories (/). User level unit files are stored in the /systemd/user directories of the user owned directories ($HOME).  \nService unit files use the following directives to execute system commands:  \n\nExecStart, ExecStartPre, and ExecStartPost directives cover execution of commands when a service is started manually by systemctl, or on system start if the service is set to automatically start.\nExecReload directive covers when a service restarts. \nExecStop, ExecStopPre, and ExecStopPost directives cover when a service is stopped.  \n\nAdversaries may abuse systemd functionality to establish persistent access to victim systems by creating and/or modifying service unit files systemd uses upon reboot or starting a service. Adversaries may also place symbolic links in these directories, enabling systemd to find these payloads regardless of where they reside on the filesystem.\nThe .service file\u2019s User directive can be used to run service as a specific user, which could result in privilege escalation based on specific user/group permissions. ",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Executes the \"systemctl\" command used for controlling the systemd system and service manager"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1543/002/",
+              "id": "T1543.002",
+              "name": "Systemd Service"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0003/",
+          "id": "TA0003",
+          "name": "Persistence"
+        },
+        {
+          "description": "The adversary is trying to run malicious code.\n\nExecution consists of techniques that result in adversary-controlled code running on a local or remote system. Techniques that run malicious code are often paired with techniques from all other tactics to achieve broader goals, like exploring a network or stealing data. For example, an adversary might use a remote access tool to run a PowerShell script that does Remote System Discovery. ",
+          "techniques": [
+            {
+              "description": "This technique has been deprecated. Please use Command and Scripting Interpreter where appropriate.\nAdversaries may use scripts to aid in operations and perform multiple actions that would otherwise be manual. Scripting is useful for speeding up operational tasks and reducing the time required to gain access to critical resources. Some scripting languages may be used to bypass process monitoring mechanisms by directly interacting with the operating system at an API level instead of calling other programs. Common scripting languages for Windows include VBScript and PowerShell but could also be in the form of command-line batch scripts.\nScripts can be embedded inside Office documents as macros that can be set to execute when files used in Spearphishing Attachment and other types of spearphishing are opened. Malicious embedded macros are an alternative means of execution than software exploitation through Exploitation for Client Execution, where adversaries will rely on macros being allowed or that the user will accept to activate them.\nMany popular offensive frameworks exist which use forms of scripting for security testers and adversaries alike. Metasploit , Veil , and PowerSploit  are three examples that are popular among penetration testers for exploit and post-compromise operations and include many features for evading defenses. Some adversaries are known to use PowerShell. ",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Executes commands using a shell command-line interpreter"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1064/",
+              "id": "T1064",
+              "name": "Scripting"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0002/",
+          "id": "TA0002",
+          "name": "Execution"
+        },
+        {
+          "description": "The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective. ",
+          "techniques": [
+            {
+              "description": "Adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. This may include things such as firewall rules and anti-virus. Adversaries may use the information from Security Software Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\nExample commands that can be used to obtain security software information are netsh, reg query with Reg, dir with cmd, and Tasklist, but other indicators of discovery behavior may be more specific to the type of software or security system the adversary is looking for. It is becoming more common to see macOS malware perform checks for LittleSnitch and KnockKnock software.\nAdversaries may also utilize cloud APIs to discover the configurations of firewall rules within an environment. For example, the permitted IP ranges, ports or user accounts for the inbound/outbound rules of security groups, virtual firewalls established within AWS for EC2 and/or VPC instances, can be revealed by the DescribeSecurityGroups action with various request parameters. ",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory)"
+                },
+                {
+                  "severity": "INFO",
+                  "description": "Uses the \"uname\" system call to query kernel version information (possible evasion)"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1518/001/",
+              "id": "T1518.001",
+              "name": "Security Software Discovery"
+            },
+            {
+              "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. Adversaries may use the information from System Information Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\nTools such as Systeminfo can be used to gather detailed system information. If running with privileged access, a breakdown of system data can be gathered through the systemsetup configuration tool on macOS. As an example, adversaries with user-level access can execute the df -aH command to obtain currently mounted disks and associated freely available space. Adversaries may also leverage a Network Device CLI on network devices to gather detailed system information (e.g. show version). System Information Discovery combined with information gathered from other forms of discovery and reconnaissance can drive payload development and concealment.\nInfrastructure as a Service (IaaS) cloud providers such as AWS, GCP, and Azure allow access to instance and virtual machine information via APIs. Successful authenticated API calls can return data such as the operating system platform and status of a particular instance or the model view of a virtual machine.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Reads CPU information from /sys indicative of miner or evasive malware"
+                },
+                {
+                  "severity": "INFO",
+                  "description": "Reads system information from the proc file system"
+                },
+                {
+                  "severity": "INFO",
+                  "description": "Reads CPU information from /proc indicative of miner or evasive malware"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1082/",
+              "id": "T1082",
+              "name": "System Information Discovery"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0007/",
+          "id": "TA0007",
+          "name": "Discovery"
+        },
+        {
+          "description": "The adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses. ",
+          "techniques": [
+            {
+              "description": "This technique has been deprecated. Please use Command and Scripting Interpreter where appropriate.\nAdversaries may use scripts to aid in operations and perform multiple actions that would otherwise be manual. Scripting is useful for speeding up operational tasks and reducing the time required to gain access to critical resources. Some scripting languages may be used to bypass process monitoring mechanisms by directly interacting with the operating system at an API level instead of calling other programs. Common scripting languages for Windows include VBScript and PowerShell but could also be in the form of command-line batch scripts.\nScripts can be embedded inside Office documents as macros that can be set to execute when files used in Spearphishing Attachment and other types of spearphishing are opened. Malicious embedded macros are an alternative means of execution than software exploitation through Exploitation for Client Execution, where adversaries will rely on macros being allowed or that the user will accept to activate them.\nMany popular offensive frameworks exist which use forms of scripting for security testers and adversaries alike. Metasploit , Veil , and PowerSploit  are three examples that are popular among penetration testers for exploit and post-compromise operations and include many features for evading defenses. Some adversaries are known to use PowerShell. ",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Executes commands using a shell command-line interpreter"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1064/",
+              "id": "T1064",
+              "name": "Scripting"
+            },
+            {
+              "description": "Adversaries may set files and directories to be hidden to evade detection mechanisms. To prevent normal users from accidentally changing special files on a system, most operating systems have the concept of a \u2018hidden\u2019 file. These files don\u2019t show up when a user browses the file system with a GUI or when using normal commands on the command line. Users must explicitly ask to show the hidden files either via a series of Graphical User Interface (GUI) prompts or with command line switches (dir /a for Windows and ls \u2013a for Linux and macOS).\nOn Linux and Mac, users can mark specific files as hidden simply by putting a \u201c.\u201d as the first character in the file or folder name   . Files and folders that start with a period, \u2018.\u2019, are by default hidden from being viewed in the Finder application and standard command-line utilities like \u201cls\u201d. Users must specifically change settings to have these files viewable.\nFiles on macOS can also be marked with the UF_HIDDEN flag which prevents them from being seen in Finder.app, but still allows them to be seen in Terminal.app . On Windows, users can mark specific files as hidden by using the attrib.exe binary. Many applications create these hidden files and folders to store information so that it doesn\u2019t clutter up the user\u2019s workspace. For example, SSH utilities create a .ssh folder that\u2019s hidden and contains the user\u2019s known hosts and keys.\nAdversaries can use this to their advantage to hide files and folders anywhere on the system and evading a typical user or system analysis that does not incorporate investigation of hidden files.",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Creates hidden files, links and/or directories"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1564/001/",
+              "id": "T1564.001",
+              "name": "Hidden Files and Directories"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0005/",
+          "id": "TA0005",
+          "name": "Defense Evasion"
+        },
+        {
+          "description": "The adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context.  ",
+          "techniques": [
+            {
+              "description": "Adversaries may create or modify systemd services to repeatedly execute malicious payloads as part of persistence. Systemd is a system and service manager commonly used for managing background daemon processes (also known as services) and other system resources. Systemd is the default initialization (init) system on many Linux distributions replacing legacy init systems, including SysVinit and Upstart, while remaining backwards compatible.  \nSystemd utilizes unit configuration files with the .service file extension to encode information about a service's process. By default, system level unit files are stored in the /systemd/system directory of the root owned directories (/). User level unit files are stored in the /systemd/user directories of the user owned directories ($HOME).  \nService unit files use the following directives to execute system commands:  \n\nExecStart, ExecStartPre, and ExecStartPost directives cover execution of commands when a service is started manually by systemctl, or on system start if the service is set to automatically start.\nExecReload directive covers when a service restarts. \nExecStop, ExecStopPre, and ExecStopPost directives cover when a service is stopped.  \n\nAdversaries may abuse systemd functionality to establish persistent access to victim systems by creating and/or modifying service unit files systemd uses upon reboot or starting a service. Adversaries may also place symbolic links in these directories, enabling systemd to find these payloads regardless of where they reside on the filesystem.\nThe .service file\u2019s User directive can be used to run service as a specific user, which could result in privilege escalation based on specific user/group permissions. ",
+              "signatures": [
+                {
+                  "severity": "INFO",
+                  "description": "Executes the \"systemctl\" command used for controlling the systemd system and service manager"
+                }
+              ],
+              "link": "https://attack.mitre.org/techniques/T1543/002/",
+              "id": "T1543.002",
+              "name": "Systemd Service"
+            }
+          ],
+          "link": "https://attack.mitre.org/tactics/TA0004/",
+          "id": "TA0004",
+          "name": "Privilege Escalation"
+        }
+      ]
+    }
+  },
+  "links": {
+    "self": "https://www.virustotal.com/api/v3/files/0060ab65dfaa426977715e42aada1cc7/behaviour_mitre_trees"
+  },
+  "md5": "0060ab65dfaa426977715e42aada1cc7"
+}
