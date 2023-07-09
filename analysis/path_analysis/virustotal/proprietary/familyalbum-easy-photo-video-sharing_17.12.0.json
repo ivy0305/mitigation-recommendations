@@ -1,0 +1,235 @@
+{
+    "data": {
+        "Zenbox android": {
+            "tactics": [
+                {
+                    "description": "The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques that allow the adversary to gain knowledge about the characteristics of the mobile device and potentially other networked systems. When adversaries gain access to a new system, they must orient themselves to what they now have control of and what benefits operating from that system give to their current objective or overall goals during the intrusion. The operating system may provide capabilities that aid in this post-compromise information-gathering phase.",
+                    "techniques": [
+                        {
+                            "description": "Adversaries may track a device\u2019s physical location through use of standard operating system APIs via malicious or exploited applications on the compromised device. \nOn Android, applications holding the ACCESS_COAURSE_LOCATION or ACCESS_FINE_LOCATION permissions provide access to the device\u2019s physical location. On Android 10 and up, declaration of the ACCESS_BACKGROUND_LOCATION permission in an application\u2019s manifest will allow applications to request location access even when the application is running in the background. Some adversaries have utilized integration of Baidu map services to retrieve geographical location once the location access permissions had been obtained. \nOn iOS, applications must include the NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, and/or NSLocationAlwaysUsageDescription keys in their Info.plist file depending on the extent of requested access to location information. On iOS 8.0 and up, applications call requestWhenInUseAuthorization() to request access to location information when the application is in use or requestAlwaysAuthorization() to request access to location information regardless of whether the application is in use. With elevated privileges, an adversary may be able to access location data without explicit user consent with the com.apple.locationd.preauthorized entitlement key.",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Queries the phones location (GPS)"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1430/",
+                            "id": "T1430",
+                            "name": "Location Tracking"
+                        },
+                        {
+                            "description": "Adversaries may attempt to get information about running processes on a device. Information obtained could be used to gain an understanding of common software/applications running on devices within a network. Adversaries may use the information from Process Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions. \nRecent Android security enhancements have made it more difficult to obtain a list of running processes. On Android 7 and later, there is no way for an application to obtain the process list without abusing elevated privileges. This is due to the Android kernel utilizing the hidepid mount feature. Prior to Android 7, applications could utilize the ps command or examine the /proc directory on the device. \nIn iOS, applications have previously been able to use the sysctl command to obtain a list of running processes. This functionality has been removed in later iOS versions. ",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Queries list of running processes/tasks"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1424/",
+                            "id": "T1424",
+                            "name": "Process Discovery"
+                        },
+                        {
+                            "description": "Adversaries may attempt to get detailed information about a device\u2019s operating system and hardware, including versions, patches, and architecture. Adversaries may use the information from System Information Discovery during automated discovery to shape follow-on behaviors, including whether or not to fully infects the target and/or attempts specific actions. \nOn Android, much of this information is programmatically accessible to applications through the android.os.Build class.  iOS is much more restrictive with what information is visible to applications. Typically, applications will only be able to query the device model and which version of iOS it is running. ",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Queries several sensitive phone informations"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1426/",
+                            "id": "T1426",
+                            "name": "System Information Discovery"
+                        },
+                        {
+                            "description": "Adversaries may attempt to get a listing of network connections to or from the compromised device they are currently accessing or from remote systems by querying for information over the network. \nThis is typically accomplished by utilizing device APIs to collect information about nearby networks, such as Wi-Fi, Bluetooth, and cellular tower connections. On Android, this can be done by querying the respective APIs: \n\n\nWifiInfo for information about the current Wi-Fi connection, as well as nearby Wi-Fi networks. Querying the WiFiInfo API requires the application to hold the ACCESS_FINE_LOCATION permission. \n\n\nBluetoothAdapter for information about Bluetooth devices, which also requires the application to hold several permissions granted by the user at runtime. \n\n\nFor Android versions prior to Q, applications can use the TelephonyManager.getNeighboringCellInfo() method. For Q and later, applications can use the TelephonyManager.getAllCellInfo() method. Both methods require the application hold the ACCESS_FINE_LOCATION permission.\n\n",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Checks an internet connection is available"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1421/",
+                            "id": "T1421",
+                            "name": "System Network Connections Discovery"
+                        },
+                        {
+                            "description": "Adversaries may look for details about the network configuration and settings, such as IP and/or MAC addresses, of operating systems they access or through information discovery of remote systems. \nOn Android, details of onboard network interfaces are accessible to apps through the java.net.NetworkInterface class. Previously, the Android TelephonyManager class could be used to gather telephony-related device identifiers, information such as the IMSI, IMEI, and phone number. However, starting with Android 10, only preloaded, carrier, the default SMS, or device and profile owner applications can access the telephony-related device identifiers. \nOn iOS, gathering network configuration information is not possible without root access. \nAdversaries may use the information from System Network Configuration Discovery during automated discovery to shape follow-on behaviors, including determining certain access within the target network and what actions to do next. ",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Queries the SIM provider numeric MCC+MNC (mobile country code + mobile network code)"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1422/",
+                            "id": "T1422",
+                            "name": "System Network Configuration Discovery"
+                        }
+                    ],
+                    "link": "https://attack.mitre.org/tactics/TA0032/",
+                    "id": "TA0032",
+                    "name": "Discovery"
+                },
+                {
+                    "description": " The adversary is trying to avoid being detected.\n\nDefense evasion consists of techniques an adversary may use to evade detection or avoid other defenses. Sometimes these actions are the same as or variations of techniques in other categories that have the added benefit of subverting a particular defense or mitigation. Defense evasion may be considered a set of attributes the adversary applies to all other phases of the operation.",
+                    "techniques": [
+                        {
+                            "description": "Adversaries may wipe a device or delete individual files in order to manipulate external outcomes or hide activity. An application must have administrator access to fully wipe the device, while individual files may not require special permissions to delete depending on their storage location. \nStored data could include a variety of file formats, such as Office files, databases, stored emails, and custom file formats. The impact file deletion will have depends on the type of data as well as the goals and objectives of the adversary, but can include deleting update files to evade detection or deleting attacker-specified files for impact.",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Lists and deletes files in the same context"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1447/",
+                            "id": "T1447",
+                            "name": "Delete Device Data"
+                        }
+                    ],
+                    "link": "https://attack.mitre.org/tactics/TA0030/",
+                    "id": "TA0030",
+                    "name": "Defense Evasion"
+                },
+                {
+                    "description": "The adversary is trying to steal account names, passwords, or other secrets that enable access to resources.\n\nCredential access represents techniques that can be used by adversaries to obtain access to or control over passwords, tokens, cryptographic keys, or other values that could be used by an adversary to gain unauthorized access to resources. Credential access allows the adversary to assume the identity of an account, with all of that account's permissions on the system and network, and makes it harder for defenders to detect the adversary. With sufficient access within a network, an adversary can create accounts for later use within the environment.",
+                    "techniques": [
+                        {
+                            "description": "Adversaries may try to access and collect application data resident on the device. Adversaries often target popular applications, such as Facebook, WeChat, and Gmail. \nDue to mobile OS sandboxing, this technique is only possible in three scenarios: \n\nAn application stores files in unprotected external storage \nAn application stores files in its internal storage directory with insecure permissions (e.g. 777) \nThe adversary gains root permissions on the device \n",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Queries stored mail and application accounts (e.g. Gmail or Whatsapp)"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1409/",
+                            "id": "T1409",
+                            "name": "Stored Application Data"
+                        }
+                    ],
+                    "link": "https://attack.mitre.org/tactics/TA0031/",
+                    "id": "TA0031",
+                    "name": "Credential Access"
+                },
+                {
+                    "description": "The adversary is trying to manipulate, interrupt, or destroy your devices and data.\n\nThe impact tactic consists of techniques used by the adversary to execute his or her mission objectives but that do not cleanly fit into another category such as Collection. Mission objectives vary based on each adversary's goals, but examples include toll fraud, destruction of device data, or locking the user out of his or her device until a ransom is paid.",
+                    "techniques": [
+                        {
+                            "description": "An adversary could seek to generate fraudulent advertising revenue from mobile devices, for example by triggering automatic clicks of advertising links without user involvement.",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Found advertisement framework"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1472/",
+                            "id": "T1472",
+                            "name": "Generate Fraudulent Advertising Revenue"
+                        },
+                        {
+                            "description": "Adversaries may wipe a device or delete individual files in order to manipulate external outcomes or hide activity. An application must have administrator access to fully wipe the device, while individual files may not require special permissions to delete depending on their storage location. \nStored data could include a variety of file formats, such as Office files, databases, stored emails, and custom file formats. The impact file deletion will have depends on the type of data as well as the goals and objectives of the adversary, but can include deleting update files to evade detection or deleting attacker-specified files for impact.",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Lists and deletes files in the same context"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1447/",
+                            "id": "T1447",
+                            "name": "Delete Device Data"
+                        }
+                    ],
+                    "link": "https://attack.mitre.org/tactics/TA0034/",
+                    "id": "TA0034",
+                    "name": "Impact"
+                },
+                {
+                    "description": "The adversary is trying to gather data of interest to their goal.\n\nCollection consists of techniques used to identify and gather information, such as sensitive files, from a target network prior to exfiltration. This category also covers locations on a system or network where the adversary may look for information to exfiltrate.",
+                    "techniques": [
+                        {
+                            "description": "Adversaries may use device sensors to collect information about nearby networks, such as Wi-Fi and Bluetooth.",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Checks an internet connection is available"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1507/",
+                            "id": "T1507",
+                            "name": "Network Information Discovery"
+                        },
+                        {
+                            "description": "Adversaries may track a device\u2019s physical location through use of standard operating system APIs via malicious or exploited applications on the compromised device. \nOn Android, applications holding the ACCESS_COAURSE_LOCATION or ACCESS_FINE_LOCATION permissions provide access to the device\u2019s physical location. On Android 10 and up, declaration of the ACCESS_BACKGROUND_LOCATION permission in an application\u2019s manifest will allow applications to request location access even when the application is running in the background. Some adversaries have utilized integration of Baidu map services to retrieve geographical location once the location access permissions had been obtained. \nOn iOS, applications must include the NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, and/or NSLocationAlwaysUsageDescription keys in their Info.plist file depending on the extent of requested access to location information. On iOS 8.0 and up, applications call requestWhenInUseAuthorization() to request access to location information when the application is in use or requestAlwaysAuthorization() to request access to location information regardless of whether the application is in use. With elevated privileges, an adversary may be able to access location data without explicit user consent with the com.apple.locationd.preauthorized entitlement key.",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Queries the phones location (GPS)"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1430/",
+                            "id": "T1430",
+                            "name": "Location Tracking"
+                        },
+                        {
+                            "description": "Adversaries may try to access and collect application data resident on the device. Adversaries often target popular applications, such as Facebook, WeChat, and Gmail. \nDue to mobile OS sandboxing, this technique is only possible in three scenarios: \n\nAn application stores files in unprotected external storage \nAn application stores files in its internal storage directory with insecure permissions (e.g. 777) \nThe adversary gains root permissions on the device \n",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Queries stored mail and application accounts (e.g. Gmail or Whatsapp)"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1409/",
+                            "id": "T1409",
+                            "name": "Stored Application Data"
+                        }
+                    ],
+                    "link": "https://attack.mitre.org/tactics/TA0035/",
+                    "id": "TA0035",
+                    "name": "Collection"
+                },
+                {
+                    "description": "The adversary is trying to intercept or manipulate network traffic to or from a device.\n\nThis category refers to network-based techniques that an adversary may be able to use to fulfill his or her objectives without access to the mobile device itself. These include techniques to intercept or manipulate network traffic to and from the mobile device.",
+                    "techniques": [
+                        {
+                            "description": "If network traffic between the mobile device and remote servers is unencrypted or is encrypted in an insecure manner, then an adversary positioned on the network can eavesdrop on communication.",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "Monitors network connection state"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1439/",
+                            "id": "T1439",
+                            "name": "Eavesdrop on Insecure Network Communication"
+                        }
+                    ],
+                    "link": "https://attack.mitre.org/tactics/TA0038/",
+                    "id": "TA0038",
+                    "name": "Network Effects"
+                },
+                {
+                    "description": "The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective. ",
+                    "techniques": [
+                        {
+                            "description": "Adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. This may include things such as firewall rules and anti-virus. Adversaries may use the information from Security Software Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\nExample commands that can be used to obtain security software information are netsh, reg query with Reg, dir with cmd, and Tasklist, but other indicators of discovery behavior may be more specific to the type of software or security system the adversary is looking for. It is becoming more common to see macOS malware perform checks for LittleSnitch and KnockKnock software.\nAdversaries may also utilize cloud APIs to discover the configurations of firewall rules within an environment. For example, the permitted IP ranges, ports or user accounts for the inbound/outbound rules of security groups, virtual firewalls established within AWS for EC2 and/or VPC instances, can be revealed by the DescribeSecurityGroups action with various request parameters. ",
+                            "signatures": [
+                                {
+                                    "severity": "INFO",
+                                    "description": "May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory)"
+                                }
+                            ],
+                            "link": "https://attack.mitre.org/techniques/T1518/001/",
+                            "id": "T1518.001",
+                            "name": "Security Software Discovery"
+                        }
+                    ],
+                    "link": "https://attack.mitre.org/tactics/TA0007/",
+                    "id": "TA0007",
+                    "name": "Discovery"
+                }
+            ]
+        }
+    },
+    "links": {
+        "self": "https://www.virustotal.com/api/v3/files/334ef4074d535de151fbd5a1fc403237a246b013c1d96b7d199023c94a330b1d/behaviour_mitre_trees"
+    }
+}
